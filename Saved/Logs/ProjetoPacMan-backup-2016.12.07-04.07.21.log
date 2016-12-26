@@ -1,0 +1,962 @@
+﻿Log file open, 12/06/16 17:50:50
+LogInit:Display: Running engine for game: ProjetoPacMan
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1793565532) SRandInit(1793565532).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.203441
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.06-19.50.52:250][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-19.50.52:250][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.06-19.50.52:619][  0]LogInit: Computer: DESKTOP-KJRFG8H
+[2016.12.06-19.50.52:619][  0]LogInit: User: MacdeAnderson
+[2016.12.06-19.50.52:619][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.12.06-19.50.52:619][  0]LogInit: High frequency timer resolution =1.753829 MHz
+[2016.12.06-19.50.52:620][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.12.06-19.50.52:620][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.06-19.50.52:620][  0]LogMemory: Process Physical Memory: 256.25 MB used, 256.25 MB peak
+[2016.12.06-19.50.52:620][  0]LogMemory: Process Virtual Memory: 259.69 MB used, 259.69 MB peak
+[2016.12.06-19.50.52:620][  0]LogMemory: Physical Memory: 3003.06 MB used, 3988.27 MB total
+[2016.12.06-19.50.52:620][  0]LogMemory: Virtual Memory: 616.43 MB used, 134217728.00 MB total
+[2016.12.06-19.50.54:596][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.06-19.50.54:626][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2016.12.06-19.50.54:626][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.12.06-19.50.54:630][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.06-19.50.54:630][  0]LogD3D11RHI:       0/0/1994 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.06-19.50.54:630][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.06-19.50.54:638][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.06-19.50.54:639][  0]LogD3D11RHI:     GPU DeviceId: 0x156 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.06-19.50.54:639][  0]LogWindows: EnumDisplayDevices:
+[2016.12.06-19.50.54:639][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2016.12.06-19.50.54:639][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2016.12.06-19.50.54:640][  0]LogWindows:    2. 'Intel(R) HD Graphics' (P:0 D:0)
+[2016.12.06-19.50.54:640][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.12.06-19.50.54:640][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2016.12.06-19.50.54:640][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2016.12.06-19.50.54:640][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2016.12.06-19.50.54:640][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.12.06-19.50.54:646][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.06-19.50.54:681][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2016.12.06-19.50.54:682][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (E:/ProjetoPacMan/Intermediate/Shaders/WorkingDirectory/6260/).
+[2016.12.06-19.50.54:682][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alaur/AppData/Local/Temp/UnrealShaderWorkingDir/DB7B3E094C33A4FB7690EEA224D29DFA/'.
+[2016.12.06-19.50.54:682][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.06-19.51.01:320][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.06-19.51.01:372][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.06-19.51.01:405][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.06-19.51.01:448][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.06-19.51.01:470][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.06-19.51.01:513][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.06-19.51.01:543][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.06-19.51.01:573][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.06-19.51.01:604][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.06-19.51.01:627][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.06-19.51.01:662][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.06-19.51.01:734][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.06-19.51.01:734][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.06-19.51.01:752][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.06-19.51.01:817][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.06-19.51.01:858][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.06-19.51.01:884][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.06-19.51.01:912][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.06-19.51.01:937][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.06-19.51.01:963][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.06-19.51.01:963][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.06-19.51.02:286][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache: Loaded boot cache 0.42s 62MB C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/ProjetoPacMan/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/ProjetoPacMan/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.06-19.51.02:711][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.06-19.51.02:789][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.06-19.51.02:802][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alaur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.06-19.51.04:840][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-19.51.04:923][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.06-19.51.05:408][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.06-19.51.05:408][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.06-19.51.05:408][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.06-19.51.05:819][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.06-19.51.09:203][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projetopacman, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1135870952
+[2016.12.06-19.51.09:353][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2016.12.06-19.51.10:842][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 1.481193 seconds
+[2016.12.06-19.51.10:894][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.06-19.51.10:896][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.12.06-19.51.10:896][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.06-19.51.10:950][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.06-19.51.20:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-19.51.20:976][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-19.52.15:156][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.06-19.52.15:243][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.06-19.52.17:296][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-19.52.18:674][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-19.52.18:752][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-19.52.18:856][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-19.52.21:240][  0]LogEngine: Initializing Engine...
+[2016.12.06-19.52.21:242][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.06-19.52.22:006][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-19.52.22:049][  0]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-19.52.22:103][  0]LogInit: FAudioDevice initialized.
+[2016.12.06-19.52.22:636][  0]LogDerivedDataCache: Saved boot cache 0.53s 62MB C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.06-19.52.22:661][  0]LogInit: Texture streaming: Enabled
+[2016.12.06-19.52.23:004][  0]LogInit: Transaction tracking system initialized
+[2016.12.06-19.52.23:287][  0]BlueprintLog: New page: Carregar Editor
+[2016.12.06-19.52.25:498][  0]LocalizationService: Informações Localization service is disabled
+[2016.12.06-19.52.27:107][  0]LogConsoleResponse:Display: 
+[2016.12.06-19.52.31:981][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/' took 0.24s
+[2016.12.06-19.52.31:981][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.06-19.52.31:981][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.06-19.52.35:814][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-19.52.46:609][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.06-19.52.46:819][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.06-19.52.48:147][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.06-19.52.49:273][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.06-19.52.49:308][  0]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-19.52.49:402][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-19.52.49:451][  0]MapCheck: New page: Verificação de Mapa
+[2016.12.06-19.52.49:451][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-19.52.55:915][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.12.06-19.52.57:450][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-19.52.57:506][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-19.52.57:704][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 197,557ms to complete.
+[2016.12.06-19.52.57:706][  0]LogFileHelpers: Loading map 'Minimal_Default' took 8.408
+[2016.12.06-19.53.01:163][  0]LogStats:Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_cf4_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_a0c_0///####STATCAT_Advanced####
+[2016.12.06-19.53.01:163][  0]LogCollectionManager: Loaded 0 collections in 0.005132 seconds
+[2016.12.06-19.53.04:803][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Saved/Collections/' took 1.82s
+[2016.12.06-19.53.04:803][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/Developers/MacdeAnderson/Collections/' took 0.00s
+[2016.12.06-19.53.04:803][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/Collections/' took 0.01s
+[2016.12.06-19.53.04:803][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000007 seconds
+[2016.12.06-19.53.04:924][  0]LogContentBrowser: Native class hierarchy populated in 0.1140 seconds. Added 2143 classes and 417 folders.
+[2016.12.06-19.53.05:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.06-19.53.05:474][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.06-19.53.05:487][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0036 seconds. Added 12 classes and 0 folders.
+[2016.12.06-19.53.05:607][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2016.12.06-19.53.12:569][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0038 seconds. Added 0 classes and 0 folders.
+[2016.12.06-19.53.12:747][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2016.12.06-19.53.14:211][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.06-19.53.14:658][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.12.06-19.53.14:898][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0022 seconds. Added 1 classes and 2 folders.
+[2016.12.06-19.53.14:899][  0]LogLoad: (Engine Initialization) Total time: 159.57 seconds
+[2016.12.06-19.53.14:899][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.46 seconds
+[2016.12.06-19.53.14:899][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.06-19.53.14:899][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.06-19.53.14:910][  0]LogOcInput: OculusInput pre-init called
+[2016.12.06-19.53.15:690][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.06-19.53.20:089][  0]LogRenderer: Reallocating scene render targets to support 812x352 (Frame:2).
+[2016.12.06-19.53.33:442][ 61]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2016.12.06-19.54.39:033][299]LogAudioDerivedData:Display: Criando onda OGG The_Boy_Who_Shattered_Time__MitiS_Remix___online-audio-converter_com_ do formato de áudio compactado
+[2016.12.06-19.55.18:630][299]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-19.55.19:635][299]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-19.55.20:330][299]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-19.55.20:360][299]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-19.55.20:362][299]LoadErrors: New page: Carregando mapa: Untitled.umap
+[2016.12.06-19.55.20:540][299]MapCheck: New page: Verificação de Mapa
+[2016.12.06-19.55.20:540][299]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-19.55.21:584][299]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
+[2016.12.06-19.55.22:446][299]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-19.55.22:692][299]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 246,537ms to complete.
+[2016.12.06-19.55.22:695][299]LogFileHelpers: Loading map 'Untitled' took 2.379
+[2016.12.06-19.55.22:908][299]LogAssetRegistry: Asset discovery search completed in 253.5858 seconds
+[2016.12.06-19.55.22:909][299]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000010 seconds (updated 0 objects)
+[2016.12.06-20.02.45:484][503]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-20.02.45:533][503]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.02.45:533][503]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.45:535][503]LoadErrors: New page: Carregando mapa: NewMap.umap
+[2016.12.06-20.02.45:536][503]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.02.45:536][503]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.45:583][503]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.02.46:798][503]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.02.46:909][503]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 110,922ms to complete.
+[2016.12.06-20.02.46:909][503]LogFileHelpers: Loading map 'NewMap' took 1.378
+[2016.12.06-20.02.51:780][564]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-20.02.51:823][564]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.02.51:823][564]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.51:824][564]LoadErrors: New page: Carregando mapa: Untitled.umap
+[2016.12.06-20.02.51:825][564]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.02.51:825][564]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.51:863][564]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.02.53:074][564]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.02.53:179][564]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 104,854ms to complete.
+[2016.12.06-20.02.53:179][564]LogFileHelpers: Loading map 'Untitled' took 1.357
+[2016.12.06-20.02.54:455][585]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-20.02.54:499][585]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.02.54:499][585]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.54:500][585]LoadErrors: New page: Carregando mapa: NewMap.umap
+[2016.12.06-20.02.54:501][585]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.02.54:501][585]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.54:537][585]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.02.55:761][585]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.02.55:864][585]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 103,705ms to complete.
+[2016.12.06-20.02.55:865][585]LogFileHelpers: Loading map 'NewMap' took 1.367
+[2016.12.06-20.02.57:319][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:319][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:319][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Blueprints/BlinkyGhostBP
+[2016.12.06-20.02.57:416][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:416][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:585][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:586][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:586][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.57:586][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.57:587][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/i
+[2016.12.06-20.02.57:587][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.57:587][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.57:587][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/i1
+[2016.12.06-20.02.57:587][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.57:587][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.57:588][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/L
+[2016.12.06-20.02.57:593][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.57:594][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.57:594][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/T
+[2016.12.06-20.02.57:594][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.57:594][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.57:594][609]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/t1
+[2016.12.06-20.02.57:599][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:599][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:600][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.57:600][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.57:600][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.57:600][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.57:601][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.57:601][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.57:602][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.57:602][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.57:602][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.57:603][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “E:/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.57:605][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:606][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:606][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:606][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:606][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:606][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.57:607][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:608][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:609][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.57:609][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.57:609][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.57:609][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.57:610][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.57:610][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.57:610][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.57:610][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.57:610][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.57:611][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.57:664][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:664][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:665][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:665][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:665][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:665][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:666][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:666][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:703][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:703][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:703][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:703][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:715][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:716][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:716][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:716][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:929][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:929][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.57:930][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-20.02.57:931][609]LoadErrors: Informações Falha ao carregar /Game/Blueprints/BlinkyGhostBP.BlinkyGhostBP_C Referenciado por PersistentLevel
+[2016.12.06-20.02.57:931][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-20.02.58:052][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.58:052][609]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall
+[2016.12.06-20.02.58:052][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.58:053][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.58:053][609]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_0
+[2016.12.06-20.02.58:053][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.58:053][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.58:053][609]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_1
+[2016.12.06-20.02.58:054][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.58:054][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.58:054][609]LoadErrors: Informações Falha ao carregar /Game/Levels/L.L Referenciado por wall_11
+[2016.12.06-20.02.58:054][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.58:055][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-20.02.58:055][609]LoadErrors: Informações Falha ao carregar /Game/Levels/L.L Referenciado por wall_12
+[2016.12.06-20.02.58:055][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-20.02.58:055][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:055][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_13
+[2016.12.06-20.02.58:056][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:056][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:056][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_14
+[2016.12.06-20.02.58:056][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:057][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.58:057][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_15
+[2016.12.06-20.02.58:057][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.58:057][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.58:057][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_16
+[2016.12.06-20.02.58:058][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.58:058][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:058][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_17
+[2016.12.06-20.02.58:058][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:059][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:059][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_18
+[2016.12.06-20.02.58:059][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:059][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:059][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_19
+[2016.12.06-20.02.58:060][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:060][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.58:060][609]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_2
+[2016.12.06-20.02.58:060][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.58:061][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-20.02.58:061][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_20
+[2016.12.06-20.02.58:061][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-20.02.58:062][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-20.02.58:062][609]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_21
+[2016.12.06-20.02.58:064][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-20.02.58:065][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.58:065][609]LoadErrors: Informações Falha ao carregar /Game/Levels/T.T Referenciado por wall_3
+[2016.12.06-20.02.58:066][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.58:066][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-20.02.58:066][609]LoadErrors: Informações Falha ao carregar /Game/Levels/T.T Referenciado por wall_4
+[2016.12.06-20.02.58:066][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-20.02.58:067][609]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-20.02.58:067][609]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_5
+[2016.12.06-20.02.58:067][609]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-20.02.59:469][609]LogAIModule: Creating AISystem for world FristMaze
+[2016.12.06-20.02.59:778][609]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/FristMaze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.02.59:778][609]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.02.59:779][609]LoadErrors: New page: Carregando mapa: FristMaze.umap
+[2016.12.06-20.02.59:780][609]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.02.59:780][609]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.03.00:105][609]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.03.01:512][609]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.03.01:625][609]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 113,132ms to complete.
+[2016.12.06-20.03.01:625][609]LogFileHelpers: Loading map 'FristMaze' took 1.849
+[2016.12.06-20.03.01:631][609]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'Collider': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-20.03.01:631][609]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'FloatingPawnMovement': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-20.03.01:631][609]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'SkeletalMesh': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-20.03.02:586][620]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-20.03.02:628][620]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.03.02:629][620]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.03.02:630][620]LoadErrors: New page: Carregando mapa: NewMap.umap
+[2016.12.06-20.03.02:655][620]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.03.02:655][620]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.03.02:718][620]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.03.03:966][620]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.03.04:074][620]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 107,642ms to complete.
+[2016.12.06-20.03.04:074][620]LogFileHelpers: Loading map 'NewMap' took 1.447
+[2016.12.06-20.03.07:526][665]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.03.07:604][665]PIE: New page: Sessão de PIE : NewMap (06/12/2016 15:03:07)
+[2016.12.06-20.03.07:631][665]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_NewMap
+[2016.12.06-20.03.07:645][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013823s)
+[2016.12.06-20.03.07:647][665]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-20.03.07:667][665]LogPlayLevel: PIE: World Init took: (0.021717s)
+[2016.12.06-20.03.07:679][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/NewMap.NewMap to /Game/Levels/UEDPIE_0_NewMap.NewMap (0.047938s)
+[2016.12.06-20.03.07:741][665]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.03.07:813][665]LogInit: FAudioDevice initialized.
+[2016.12.06-20.03.08:017][665]LogWorld: Game class is 'menu_C'
+[2016.12.06-20.03.08:139][665]LogWorld: Bringing World /Game/Levels/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2016.12.06-18.03.08
+[2016.12.06-20.03.08:157][665]LogWorld: Bringing up level for play took: 0.019484
+[2016.12.06-20.03.08:416][665]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0037 seconds. Added 11 classes and 0 folders.
+[2016.12.06-20.03.08:416][665]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.03.08:444][665]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.03.08:454][665]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.03.08:742][665]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.03.08:750][665]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_NewMap 0,811
+[2016.12.06-20.03.09:045][665]LogRenderer: Reallocating scene render targets to support 812x380 (Frame:402).
+[2016.12.06-20.03.19:148][833]Cmd: r.setRes 1280x720
+[2016.12.06-20.03.19:386][833]r.SetRes = "1280x720"
+[2016.12.06-20.03.22:453][887]Cmd: r.setRes 1920x1080
+[2016.12.06-20.03.22:453][887]r.SetRes = "1920x1080"
+[2016.12.06-20.03.33:857][ 64]LogGameMode:Display: Match State Changed from InProgress to LeavingMap
+[2016.12.06-20.03.33:857][ 64]LogGameState: Match State Changed from InProgress to LeavingMap
+[2016.12.06-20.03.33:858][ 64]LogNet: Browse: /Game/Levels/Maze
+[2016.12.06-20.03.33:860][ 64]LogLoad: LoadMap: /Game/Levels/Maze
+[2016.12.06-20.03.33:975][ 64]Cmd: MEM
+[2016.12.06-20.03.34:013][ 64]LogMemory: Platform Memory Stats for Windows
+[2016.12.06-20.03.34:013][ 64]LogMemory: Process Physical Memory: 659.40 MB used, 1173.13 MB peak
+[2016.12.06-20.03.34:013][ 64]LogMemory: Process Virtual Memory: 1322.69 MB used, 1345.34 MB peak
+[2016.12.06-20.03.34:013][ 64]LogMemory: Physical Memory: 2947.06 MB used, 3988.27 MB total
+[2016.12.06-20.03.34:013][ 64]LogMemory: Virtual Memory: 2051.75 MB used, 134217728.00 MB total
+[2016.12.06-20.03.34:013][ 64]LogMemory: 
+[2016.12.06-20.03.34:013][ 64]Allocator Stats for TBB: (not implemented)
+[2016.12.06-20.03.35:046][ 64]LogMaterial: Missing cached shader map for material SnowMaterial, compiling. 
+[2016.12.06-20.03.35:280][ 64]LogMaterial: Missing cached shader map for material SnowMaterial, compiling. 
+[2016.12.06-20.03.45:709][ 64]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.03.45:837][ 64]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.03.46:191][ 64]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.03.46
+[2016.12.06-20.03.46:354][ 64]LogWorld: Bringing up level for play took: 0.515630
+[2016.12.06-20.03.46:383][ 64]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.03.46:417][ 64]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.03.46:417][ 64]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.03.46:417][ 64]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.03.46:609][ 64]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.03.46:630][ 64]LogLoad: Took 12.770216 seconds to LoadMap(/Game/Levels/Maze)
+[2016.12.06-20.05.11:604][279]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.05.11:678][279]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/Levels/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-20.05.11:678][279]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.05.11:680][279]LoadErrors: New page: Carregando mapa: Maze.umap
+[2016.12.06-20.05.11:681][279]MapCheck: New page: Verificação de Mapa
+[2016.12.06-20.05.11:681][279]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-20.05.14:368][279]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-20.05.15:965][279]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-20.05.20:883][279]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 4.917,152ms to complete.
+[2016.12.06-20.05.20:885][279]LogFileHelpers: Loading map 'Maze' took 9.209
+[2016.12.06-20.05.32:470][413]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-20.05.36:628][425]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-20.05.41:736][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Start" FILE="E:/ProjetoPacMan/Content/Levels/Start.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.06-20.05.42:751][522]LogSavePackage: Save=870.60ms
+[2016.12.06-20.05.42:751][522]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Start0E1BBC8547576588223CC4A86BDDBD8C.tmp' to 'E:/ProjetoPacMan/Content/Levels/Start.umap'
+[2016.12.06-20.05.43:043][522]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Levels/Start.umap
+[2016.12.06-20.05.43:054][522]LogFileHelpers: Saving map 'Start' took 1.487
+[2016.12.06-20.06.12:097][874]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.06.12:097][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.06.12:097][874]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:06:12)
+[2016.12.06-20.06.12:098][874]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.06.12:214][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.116466s)
+[2016.12.06-20.06.12:215][874]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.06.12:216][874]LogPlayLevel: PIE: World Init took: (0.001386s)
+[2016.12.06-20.06.12:216][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.118295s)
+[2016.12.06-20.06.12:254][874]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.06.12:278][874]LogInit: FAudioDevice initialized.
+[2016.12.06-20.06.12:325][874]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.06.12:378][874]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.06.12
+[2016.12.06-20.06.12:383][874]LogWorld: Bringing up level for play took: 0.057123
+[2016.12.06-20.06.12:385][874]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.06.12:385][874]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.06.12:385][874]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.06.12:385][874]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.06.12:390][874]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.06.12:396][874]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,457
+[2016.12.06-20.06.12:397][874]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.06.53:242][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.06.53:904][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.07.10:211][597]LogUObjectHash:Warning: Ambiguous search, could be Function /Game/Blueprints/PacManBP.PacManBP_C:Gate or Function /Game/Blueprints/PacManBP.SKEL_PacManBP_C:Gate
+[2016.12.06-20.07.10:471][597]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0049 seconds. Added 112 classes and 0 folders.
+[2016.12.06-20.09.20:159][653]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.09.22:646][694]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tablet_DM_BP" FILE="E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset" SILENT=true
+[2016.12.06-20.09.25:186][694]LogSavePackage: Save=2037.96ms
+[2016.12.06-20.09.25:186][694]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Tablet_DM_BPAEB13F484547E416CCC94C95B6857EB1.tmp' to 'E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset'
+[2016.12.06-20.09.25:468][694]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset
+[2016.12.06-20.09.30:200][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.09.30:201][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.09.30:201][799]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:09:30)
+[2016.12.06-20.09.30:202][799]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.09.30:234][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031431s)
+[2016.12.06-20.09.30:236][799]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.09.30:236][799]LogPlayLevel: PIE: World Init took: (0.002206s)
+[2016.12.06-20.09.30:236][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.034132s)
+[2016.12.06-20.09.30:297][799]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.09.30:320][799]LogInit: FAudioDevice initialized.
+[2016.12.06-20.09.30:367][799]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.09.30:422][799]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.09.30
+[2016.12.06-20.09.30:425][799]LogWorld: Bringing up level for play took: 0.055723
+[2016.12.06-20.09.30:427][799]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.09.30:427][799]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.09.30:427][799]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.09.30:427][799]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.09.30:432][799]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.09.30:440][799]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,502
+[2016.12.06-20.09.30:441][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.09.45:712][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.09.46:390][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.04:116][799]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.10.09:566][895]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.09:566][895]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.10.09:567][895]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:10:09)
+[2016.12.06-20.10.09:568][895]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.10.09:600][895]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031532s)
+[2016.12.06-20.10.09:601][895]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.10.09:601][895]LogPlayLevel: PIE: World Init took: (0.001430s)
+[2016.12.06-20.10.09:602][895]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.033756s)
+[2016.12.06-20.10.09:664][895]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.10.09:688][895]LogInit: FAudioDevice initialized.
+[2016.12.06-20.10.09:734][895]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.10.09:787][895]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.10.09
+[2016.12.06-20.10.09:791][895]LogWorld: Bringing up level for play took: 0.056102
+[2016.12.06-20.10.09:793][895]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.10.09:793][895]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.10.09:793][895]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.10.09:793][895]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.10.09:798][895]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.10.09:807][895]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze -0,132
+[2016.12.06-20.10.09:807][895]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.28:228][146]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.29:142][146]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.47:681][854]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.10.50:467][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.50:467][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.10.50:468][910]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:10:50)
+[2016.12.06-20.10.50:469][910]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.10.50:499][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030490s)
+[2016.12.06-20.10.50:501][910]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.10.50:501][910]LogPlayLevel: PIE: World Init took: (0.001888s)
+[2016.12.06-20.10.50:501][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.032883s)
+[2016.12.06-20.10.50:561][910]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.10.50:583][910]LogInit: FAudioDevice initialized.
+[2016.12.06-20.10.50:632][910]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.10.50:685][910]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.10.50
+[2016.12.06-20.10.50:690][910]LogWorld: Bringing up level for play took: 0.056714
+[2016.12.06-20.10.50:692][910]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.10.50:692][910]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.10.50:693][910]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.10.50:693][910]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.10.50:725][910]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.10.50:731][910]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,793
+[2016.12.06-20.10.50:732][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.10.59:986][ 22]LogBlueprintUserMessages: [Tablet_DM_BP9] Hello
+[2016.12.06-20.11.00:219][ 26]LogBlueprintUserMessages: [Tablet_DM_BP6] Hello
+[2016.12.06-20.11.00:219][ 26]LogBlueprintUserMessages: [Tablet_DM_BP6] Hello
+[2016.12.06-20.11.00:813][ 35]LogBlueprintUserMessages: [Tablet_DM_BP5] Hello
+[2016.12.06-20.11.02:959][ 67]LogBlueprintUserMessages: [Tablet_DM_BP_30] Hello
+[2016.12.06-20.11.05:149][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.11.05:822][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.11.38:195][656]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.11.40:717][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.11.40:717][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.11.40:718][699]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:11:40)
+[2016.12.06-20.11.40:719][699]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.11.40:749][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030668s)
+[2016.12.06-20.11.40:751][699]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.11.40:751][699]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2016.12.06-20.11.40:752][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.033063s)
+[2016.12.06-20.11.40:812][699]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.11.40:835][699]LogInit: FAudioDevice initialized.
+[2016.12.06-20.11.40:882][699]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.11.40:936][699]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.11.40
+[2016.12.06-20.11.40:939][699]LogWorld: Bringing up level for play took: 0.054727
+[2016.12.06-20.11.40:941][699]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.11.40:941][699]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.11.40:941][699]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.11.40:941][699]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.11.40:946][699]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.11.40:954][699]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 1,015
+[2016.12.06-20.11.40:954][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.04:903][ 29]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.05:566][ 29]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.22:708][813]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.12.25:288][858]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.25:288][858]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.12.25:288][858]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:12:25)
+[2016.12.06-20.12.25:289][858]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.12.25:321][858]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031287s)
+[2016.12.06-20.12.25:322][858]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.12.25:322][858]LogPlayLevel: PIE: World Init took: (0.001448s)
+[2016.12.06-20.12.25:322][858]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.033171s)
+[2016.12.06-20.12.25:384][858]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.12.25:407][858]LogInit: FAudioDevice initialized.
+[2016.12.06-20.12.25:452][858]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.12.25:503][858]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.12.25
+[2016.12.06-20.12.25:506][858]LogWorld: Bringing up level for play took: 0.053595
+[2016.12.06-20.12.25:509][858]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.12.25:509][858]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.12.25:509][858]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.12.25:509][858]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.12.25:515][858]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.12.25:522][858]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze -0,417
+[2016.12.06-20.12.25:522][858]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.49:028][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.12.49:714][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.13.08:624][ 33]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.13.11:039][ 84]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.13.11:039][ 84]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.13.11:040][ 84]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:13:11)
+[2016.12.06-20.13.11:040][ 84]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.13.11:072][ 84]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031568s)
+[2016.12.06-20.13.11:073][ 84]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.13.11:074][ 84]LogPlayLevel: PIE: World Init took: (0.001809s)
+[2016.12.06-20.13.11:074][ 84]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.033922s)
+[2016.12.06-20.13.11:135][ 84]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.13.11:158][ 84]LogInit: FAudioDevice initialized.
+[2016.12.06-20.13.11:206][ 84]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.13.11:259][ 84]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.13.11
+[2016.12.06-20.13.11:262][ 84]LogWorld: Bringing up level for play took: 0.054449
+[2016.12.06-20.13.11:263][ 84]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.13.11:263][ 84]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.13.11:263][ 84]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.13.11:263][ 84]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.13.11:271][ 84]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.13.11:276][ 84]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze -0,662
+[2016.12.06-20.13.11:277][ 84]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.13.26:393][283]LogBlueprintUserMessages: [Tablet_DM_BP8] Tablet_DM_BP9
+[2016.12.06-20.13.26:393][283]LogBlueprintUserMessages: [Tablet_DM_BP8] Tablet_DM_BP9
+[2016.12.06-20.13.26:393][283]LogBlueprintUserMessages: [Tablet_DM_BP8] Tablet_DM_BP9
+[2016.12.06-20.13.27:146][294]LogBlueprintUserMessages: [Tablet_DM_BP7] Tablet_DM_BP8
+[2016.12.06-20.13.27:764][303]LogBlueprintUserMessages: [Tablet_DM_BP6] Tablet_DM_BP7
+[2016.12.06-20.13.28:384][312]LogBlueprintUserMessages: [Tablet_DM_BP5] Tablet_DM_BP9
+[2016.12.06-20.13.29:794][333]LogBlueprintUserMessages: [Tablet_DM_BP3] Tablet_DM_BP4
+[2016.12.06-20.13.29:794][333]LogBlueprintUserMessages: [Tablet_DM_BP3] Tablet_DM_BP4
+[2016.12.06-20.13.29:794][333]LogBlueprintUserMessages: [Tablet_DM_BP3] Tablet_DM_BP4
+[2016.12.06-20.13.34:648][405]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.13.35:324][405]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.14.09:030][815]LogRenderer: Reallocating scene render targets to support 812x544 (Frame:6746).
+[2016.12.06-20.15.34:373][154]BlueprintLog: New page: Compilar Tablet_DM_BP
+[2016.12.06-20.15.35:387][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tablet_DM_BP" FILE="E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset" SILENT=true
+[2016.12.06-20.15.38:631][176]LogSavePackage: Save=2010.79ms
+[2016.12.06-20.15.38:631][176]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Tablet_DM_BP25A7C63F41DE3B9FF8ECAB861B24A860.tmp' to 'E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset'
+[2016.12.06-20.15.38:697][176]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Blueprints/Tablet_DM_BP.uasset
+[2016.12.06-20.17.05:289][ 66]LogStats: FPlatformStackWalk::StackWalkAndDump -  3.471 s
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: === Handled ensure: ===
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: 
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: Ensure condition failed: TabBeingDraggedPtr.IsValid() [File:D:\Build\++UE4+Release-4.13+Compile\Sync\Engine\Source\Runtime\Slate\Private\Framework\Docking\SDockingTabWell.cpp] [Line: 375]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: 
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: Stack: 
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:183]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::EnsureFailed() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:297]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FDebug::OptionallyLogFormattedEnsureMessageReturningFalse() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\misc\outputdevice.cpp:432]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!SDockingTabWell::OnDrop() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\docking\sdockingtabwell.cpp:375]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!<lambda_d21373bc5354aa11b893894bcf47e418>::operator()() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4933]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FPointerEvent,<lambda_d21373bc5354aa11b893894bcf47e418> >() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:215]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::RoutePointerUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:4924]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::ProcessMouseButtonUpEvent() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5348]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Slate.dll!FSlateApplication::OnMouseUp() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:5328]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1584]
+[2016.12.06-20.17.05:290][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::DeferMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:1930]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:747]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsApplication::AppWndProc() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsapplication.cpp:669]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: USER32.dll
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: USER32.dll
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:905]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor.exe!FEngineLoop::Tick() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launchengineloop.cpp:2788]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor.exe!GuardedMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\launch.cpp:156]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor.exe!GuardedMainWrapper() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor.exe!WinMain() [d:\build\++ue4+release-4.13+compile\sync\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: UE4Editor.exe!__scrt_common_main_seh() [f:\dd\vctools\crt\vcstartup\src\startup\exe_common.inl:264]
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: KERNEL32.DLL
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: ntdll.dll
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: ntdll.dll
+[2016.12.06-20.17.05:291][ 66]LogOutputDevice:Error: 
+[2016.12.06-20.17.05:888][ 66]LogStats:                SubmitErrorReport -  0.010 s
+[2016.12.06-20.17.41:648][ 66]LogStats:                    SendNewReport - 35.759 s
+[2016.12.06-20.17.41:648][ 66]LogStats:             FDebug::EnsureFailed - 39.855 s
+[2016.12.06-20.19.08:402][398]BlueprintLog: New page: Compilar PacManBP
+[2016.12.06-20.19.14:265][398]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  else
+[2016.12.06-20.19.14:265][398]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  then
+[2016.12.06-20.19.16:388][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maze" FILE="E:/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-20.21.11:996][399]LogSavePackage: Save=113091.26ms
+[2016.12.06-20.21.12:006][399]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Maze_Auto1986DD9B1495BCEF41B2B74B5A1AD6832.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap'
+[2016.12.06-20.21.12:328][399]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap
+[2016.12.06-20.21.13:022][399]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maze' took 116.845
+[2016.12.06-20.21.13:022][399]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 116.845
+[2016.12.06-20.21.13:092][399]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PacManBP] ([1] browsable assets)...
+[2016.12.06-20.21.13:356][399]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PacManBP.PacManBP]
+[2016.12.06-20.21.13:356][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PacManBP]
+[2016.12.06-20.21.13:405][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PacManBP" FILE="E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-20.21.37:131][399]LogSavePackage: Save=22635.75ms
+[2016.12.06-20.21.37:131][399]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/PacManBP_Auto1161DC32C454F743A705B4E812A839AF3.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto1.uasset'
+[2016.12.06-20.21.37:183][399]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto1.uasset
+[2016.12.06-20.21.37:190][399]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/Tablet_DM_BP] ([1] browsable assets)...
+[2016.12.06-20.21.37:190][399]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Tablet_DM_BP]
+[2016.12.06-20.21.37:190][399]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Tablet_DM_BP" FILE="E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Tablet_DM_BP_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-20.21.41:053][399]LogSavePackage: Save=3372.85ms
+[2016.12.06-20.21.41:054][399]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Tablet_DM_BP_Auto15D601D7B43FE8C538512EDBB6EE52B3B.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Tablet_DM_BP_Auto1.uasset'
+[2016.12.06-20.21.41:104][399]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Tablet_DM_BP_Auto1.uasset
+[2016.12.06-20.21.41:105][399]LogFileHelpers: Auto-saving content packages took 28.067
+[2016.12.06-20.26.42:744][296]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.26.42:793][296]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.26.42:887][296]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:26:42)
+[2016.12.06-20.26.42:965][296]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.26.43:968][296]LogPlayLevel: PIE: StaticDuplicateObject took: (1.002369s)
+[2016.12.06-20.26.44:286][296]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.26.44:432][296]LogPlayLevel: PIE: World Init took: (0.458322s)
+[2016.12.06-20.26.44:467][296]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (1.506902s)
+[2016.12.06-20.26.44:843][296]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.26.45:150][296]LogInit: FAudioDevice initialized.
+[2016.12.06-20.26.45:663][296]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.26.46:290][296]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.26.46
+[2016.12.06-20.26.46:499][296]LogWorld: Bringing up level for play took: 0.781303
+[2016.12.06-20.26.46:860][296]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.26.46:871][296]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.26.46:871][296]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.26.46:871][296]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.26.47:224][296]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.26.47:282][296]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 5,343
+[2016.12.06-20.26.47:350][296]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.27.32:870][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.27.33:802][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.28.31:317][735]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Steam_Lit_Mod" FILE="E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset" SILENT=true
+[2016.12.06-20.29.11:596][735]LogSavePackage: Save=39590.86ms
+[2016.12.06-20.29.11:596][735]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/P_Steam_Lit_ModF4C09353428136F39FF0F2AA801A0C57.tmp' to 'E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset'
+[2016.12.06-20.29.11:637][735]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset
+[2016.12.06-20.29.24:577][778]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.1639 seconds. Added 2 classes and 2 folders.
+[2016.12.06-20.29.44:766][133]LogEditorViewport: Clicking on Actor (LMB): BlinkyIGhostBP_C (BlinkyTGhostBP)
+[2016.12.06-20.31.03:411][127]LogParticles:Warning: MaxCount =  704 for Emitter ParticleSpriteEmitter_0 (/Game/Particles/P_Steam_Lit_Mod.P_Steam_Lit_Mod)
+[2016.12.06-20.31.59:288][218]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Steam_Lit_Mod" FILE="E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset" SILENT=true
+[2016.12.06-20.32.06:334][218]LogSavePackage: Save=6391.77ms
+[2016.12.06-20.32.06:334][218]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/P_Steam_Lit_Mod7CFCA6BD48F10BD786CE46A85836474E.tmp' to 'E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset'
+[2016.12.06-20.32.06:400][218]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Particles/P_Steam_Lit_Mod.uasset
+[2016.12.06-20.32.36:234][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maze' took 1.754
+[2016.12.06-20.32.36:249][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PacManBP] ([1] browsable assets)...
+[2016.12.06-20.32.36:424][281]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PacManBP.PacManBP]
+[2016.12.06-20.32.36:424][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PacManBP]
+[2016.12.06-20.32.36:424][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PacManBP" FILE="E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-20.33.09:846][281]LogSavePackage: Save=32397.35ms
+[2016.12.06-20.33.09:846][281]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/PacManBP_Auto2792996BE4DD5CE973DF9488DD9FDAF6E.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto2.uasset'
+[2016.12.06-20.33.09:880][281]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/PacManBP_Auto2.uasset
+[2016.12.06-20.33.10:006][281]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/P_Steam_Lit" FILE="E:/ProjetoPacMan/Saved/Autosaves/Game/Particles/P_Steam_Lit_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-20.33.10:431][281]LogSavePackage: Save=38.48ms
+[2016.12.06-20.33.10:431][281]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/P_Steam_Lit_Auto25C69AE934AB51AD8D9554D9CA82F3F98.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/Particles/P_Steam_Lit_Auto2.uasset'
+[2016.12.06-20.33.10:709][281]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/Particles/P_Steam_Lit_Auto2.uasset
+[2016.12.06-20.33.10:710][281]LogFileHelpers: Auto-saving content packages took 34.471
+[2016.12.06-20.34.22:289][271]BlueprintLog: New page: Compilar PacManBP
+[2016.12.06-20.34.29:507][271]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  else
+[2016.12.06-20.34.29:508][271]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  then
+[2016.12.06-20.34.35:653][305]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.34.35:653][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.34.35:653][305]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:34:35)
+[2016.12.06-20.34.35:655][305]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.34.35:747][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084698s)
+[2016.12.06-20.34.35:751][305]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.34.35:751][305]LogPlayLevel: PIE: World Init took: (0.004622s)
+[2016.12.06-20.34.35:752][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.096831s)
+[2016.12.06-20.34.35:879][305]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.34.37:747][305]LogInit: FAudioDevice initialized.
+[2016.12.06-20.34.37:821][305]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.34.37:933][305]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.34.37
+[2016.12.06-20.34.37:936][305]LogWorld: Bringing up level for play took: 0.114155
+[2016.12.06-20.34.37:941][305]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.34.37:941][305]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.34.37:941][305]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.34.37:941][305]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.34.37:974][305]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.34.37:982][305]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 2,043
+[2016.12.06-20.34.37:983][305]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.35.25:559][880]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.35.26:559][880]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.16:415][369]BlueprintLog: New page: Compilar PacManBP
+[2016.12.06-20.40.18:106][369]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  else
+[2016.12.06-20.40.18:106][369]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  then
+[2016.12.06-20.40.21:211][447]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.21:307][447]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.12.06-20.40.21:349][447]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_Blueprint_0 before play...
+[2016.12.06-20.40.23:148][447]LogPlayLevel: PlayLevel: Blueprint regeneration took 1936 ms (1 blueprints)
+[2016.12.06-20.40.23:148][447]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:40:23)
+[2016.12.06-20.40.23:150][447]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.40.23:285][447]LogPlayLevel: PIE: StaticDuplicateObject took: (0.128246s)
+[2016.12.06-20.40.23:287][447]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.40.23:287][447]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2016.12.06-20.40.23:288][447]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.137568s)
+[2016.12.06-20.40.23:463][447]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.40.23:772][447]LogInit: FAudioDevice initialized.
+[2016.12.06-20.40.23:843][447]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.40.23:992][447]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.40.23
+[2016.12.06-20.40.23:998][447]LogWorld: Bringing up level for play took: 0.148581
+[2016.12.06-20.40.24:001][447]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.40.24:001][447]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.40.24:001][447]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.40.24:001][447]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.40.24:011][447]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.40.24:019][447]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 2,081
+[2016.12.06-20.40.24:021][447]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.31:337][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.32:178][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.38:337][759]BlueprintLog: New page: Compilar PacManBP
+[2016.12.06-20.40.39:482][759]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  else
+[2016.12.06-20.40.39:482][759]BlueprintEditorCompileResults: Informações The execution path doesn't end with a return node.  then
+[2016.12.06-20.40.42:181][813]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.42:181][813]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-20.40.42:181][813]PIE: New page: Sessão de PIE : Maze (06/12/2016 15:40:42)
+[2016.12.06-20.40.42:182][813]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-20.40.42:216][813]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034300s)
+[2016.12.06-20.40.42:218][813]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-20.40.42:219][813]LogPlayLevel: PIE: World Init took: (0.002014s)
+[2016.12.06-20.40.42:219][813]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.036870s)
+[2016.12.06-20.40.42:327][813]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-20.40.42:414][813]LogInit: FAudioDevice initialized.
+[2016.12.06-20.40.42:477][813]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-20.40.42:556][813]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-18.40.42
+[2016.12.06-20.40.42:560][813]LogWorld: Bringing up level for play took: 0.081055
+[2016.12.06-20.40.42:562][813]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-20.40.42:563][813]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.40.42:563][813]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-20.40.42:563][813]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.40.42:600][813]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-20.40.42:609][813]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,671
+[2016.12.06-20.40.42:610][813]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.51:160][917]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.40.51:953][917]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-20.53.09:093][ 87]LogEditorTransaction: Undo Mover Nós
+[2016.12.06-20.58.26:219][384]LogEditorTransaction: Undo Mover Nó
+[2016.12.06-20.58.27:215][410]LogEditorTransaction: Undo Resize Node
+[2016.12.06-20.58.27:638][411]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.58.28:024][412]LogEditorTransaction: Undo Mover Nó
+[2016.12.06-20.58.29:333][453]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.58.30:087][469]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.58.30:477][470]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.58.31:158][484]LogEditorTransaction: Undo Adicionar Nó
+[2016.12.06-20.58.31:726][494]LogEditorTransaction: Undo Mover Nó
+[2016.12.06-20.58.32:500][513]LogEditorTransaction: Undo Mover Nó
+[2016.12.06-20.58.33:562][544]LogEditorTransaction: Undo Mover Nó
+[2016.12.06-20.58.34:333][561]LogEditorTransaction: Undo Resize Node
+[2016.12.06-20.58.35:082][576]LogEditorTransaction: Undo Resize Node
+[2016.12.06-20.58.35:698][587]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.36:382][599]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.37:121][615]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.38:064][640]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.39:037][667]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.39:868][687]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.40:664][707]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.41:433][725]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.42:164][742]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.42:920][758]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.43:673][776]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.44:520][797]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.45:390][820]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.47:971][903]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.49:063][927]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.49:948][944]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.50:777][960]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.51:594][976]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.52:306][987]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.53:041][  0]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.53:707][  8]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.54:658][ 16]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.55:691][ 38]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.56:490][ 53]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.57:217][ 65]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.57:961][ 78]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.58:695][ 91]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.58.59:581][108]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.59.00:175][115]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.59.00:602][130]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.59.01:455][147]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.59.02:386][167]LogEditorTransaction: Undo Editar Cor do Comentário
+[2016.12.06-20.59.03:168][182]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.59.03:924][196]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.59.04:705][211]LogEditorTransaction: Undo Renomear Nó
+[2016.12.06-20.59.05:680][232]LogEditorTransaction: Undo Adicionar Nó
+[2016.12.06-21.00.41:280][319]LogBlueprint:Warning: [Compiler ] Advertência Pasted node  K2Node_ComponentBoundEvent_1   conflicted with  K2Node_ComponentBoundEvent_1  and was replaced as a Custom Event!
+[2016.12.06-21.00.41:455][319]BlueprintEditorCompileResults:Warning: Advertência Pasted node  K2Node_ComponentBoundEvent_1   conflicted with  K2Node_ComponentBoundEvent_1  and was replaced as a Custom Event!
+[2016.12.06-21.00.44:700][464]LogEditorTransaction: Undo Paste clipboard contents
+[2016.12.06-21.00.44:702][464]LogBlueprint:Warning: Loaded invalid component bound event in node /Game/Blueprints/PacManBP.PacManBP:Overlap.K2Node_ComponentBoundEvent_1.
+[2016.12.06-21.01.05:167][420]LogUObjectHash:Warning: Ambiguous search, could be K2Node_ComponentBoundEvent /Game/Blueprints/PacManBP.PacManBP:Overlap.K2Node_ComponentBoundEvent_1 or K2Node_CustomEvent /Game/Blueprints/PacManBP.PacManBP:Overlap.K2Node_ComponentBoundEvent_1
+[2016.12.06-21.01.05:193][420]LogWindows: Windows GetLastError: A operação foi concluída com êxito. (0)

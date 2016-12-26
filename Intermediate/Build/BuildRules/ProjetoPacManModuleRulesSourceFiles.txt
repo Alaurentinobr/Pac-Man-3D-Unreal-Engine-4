@@ -1,0 +1,3 @@
+C:\Users\alaur\Documents\Unreal Projects\ProjetoPacMan\Source\ProjetoPacMan\ProjetoPacMan.Build.cs
+C:\Users\alaur\Documents\Unreal Projects\ProjetoPacMan\Source\ProjetoPacMan.Target.cs
+C:\Users\alaur\Documents\Unreal Projects\ProjetoPacMan\Source\ProjetoPacManEditor.Target.cs

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\ProjetoPacMan.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D8124B89-FAEA-446C-A935-35458E7EB649}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjetoPacMan.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\ProjetoPacManEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0A420B94-5817-4F6E-85A7-7B3FD492B2CE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\ProjetoPacMan">
+			<UniqueIdentifier>{2ED3A423-D82E-4128-A2EB-1344EADC3341}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\ProjetoPacMan\ProjetoPacMan.Build.cs">
+			<Filter>Source\ProjetoPacMan</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\ProjetoPacMan\ProjetoPacMan.cpp">
+			<Filter>Source\ProjetoPacMan</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjetoPacMan\ProjetoPacMan.h">
+			<Filter>Source\ProjetoPacMan</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\ProjetoPacMan\t.cpp">
+			<Filter>Source\ProjetoPacMan</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\ProjetoPacMan\t.h">
+			<Filter>Source\ProjetoPacMan</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

@@ -1,0 +1,1223 @@
+﻿Log file open, 12/06/16 08:36:25
+LogInit:Display: Running engine for game: ProjetoPacMan
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1246365933) SRandInit(1246365933).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.131611
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.06-11.36.25:484][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-11.36.25:485][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.06-11.36.25:582][  0]LogInit: Computer: JEFFERSON
+[2016.12.06-11.36.25:582][  0]LogInit: User: Jefferson
+[2016.12.06-11.36.25:582][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.12.06-11.36.25:582][  0]LogInit: High frequency timer resolution =2.338339 MHz
+[2016.12.06-11.36.25:583][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.12.06-11.36.25:583][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.06-11.36.25:583][  0]LogMemory: Process Physical Memory: 256.69 MB used, 256.69 MB peak
+[2016.12.06-11.36.25:583][  0]LogMemory: Process Virtual Memory: 259.75 MB used, 259.75 MB peak
+[2016.12.06-11.36.25:583][  0]LogMemory: Physical Memory: 2100.39 MB used, 3976.96 MB total
+[2016.12.06-11.36.25:583][  0]LogMemory: Virtual Memory: 621.44 MB used, 134217728.00 MB total
+[2016.12.06-11.36.27:531][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.06-11.36.27:554][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics Family' (Feature Level 11_0)
+[2016.12.06-11.36.27:555][  0]LogD3D11RHI:       112/0/1988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.12.06-11.36.28:246][  0]LogD3D11RHI:    1. 'AMD Radeon R7 M265' (Feature Level 11_0)
+[2016.12.06-11.36.28:246][  0]LogD3D11RHI:       2039/0/1988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2016.12.06-11.36.28:254][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.06-11.36.28:254][  0]LogD3D11RHI:       0/0/1988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.06-11.36.28:254][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2016.12.06-11.36.28:276][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.06-11.36.28:276][  0]LogD3D11RHI:     GPU DeviceId: 0x6900 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.06-11.36.28:276][  0]LogWindows: EnumDisplayDevices:
+[2016.12.06-11.36.28:277][  0]LogWindows:    0. 'Intel(R) HD Graphics Family' (P:1 D:1)
+[2016.12.06-11.36.28:278][  0]LogWindows:    1. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2016.12.06-11.36.28:279][  0]LogWindows:    2. 'Intel(R) HD Graphics Family' (P:0 D:0)
+[2016.12.06-11.36.28:280][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2016.12.06-11.36.28:280][  0]LogD3D11RHI:     Adapter Name: AMD Radeon R7 M265
+[2016.12.06-11.36.28:280][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2016.12.06-11.36.28:280][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.12.06-11.36.28:280][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.12.06-11.36.29:009][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.06-11.36.29:048][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2016.12.06-11.36.29:050][  0]LogShaderCompilers: Guid format shader working directory is 29 characters bigger than the processId version (F:/v2/ProjetoPacMan/Intermediate/Shaders/WorkingDirectory/16784/).
+[2016.12.06-11.36.29:051][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JEFFER~1/AppData/Local/Temp/UnrealShaderWorkingDir/0469C6F64A70EA13B5E1858083615637/'.
+[2016.12.06-11.36.29:051][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.06-11.36.33:753][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.06-11.36.33:789][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.06-11.36.33:826][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.06-11.36.33:862][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.06-11.36.33:985][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.06-11.36.34:015][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.06-11.36.34:044][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.06-11.36.34:081][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.06-11.36.34:110][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.06-11.36.34:138][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.06-11.36.34:167][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.06-11.36.34:226][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.06-11.36.34:226][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.06-11.36.34:230][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.06-11.36.34:296][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.06-11.36.34:319][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.06-11.36.34:347][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.06-11.36.34:371][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.06-11.36.34:392][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.06-11.36.34:424][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.06-11.36.34:424][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.06-11.36.34:909][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache: Loaded boot cache 0.19s 62MB C:/Users/Jefferson/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jefferson/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/v2/ProjetoPacMan/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/v2/ProjetoPacMan/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.06-11.36.35:097][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.06-11.36.35:158][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.06-11.36.35:174][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jefferson/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.06-11.36.36:085][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.06-11.36.36:090][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.06-11.36.36:519][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.06-11.36.36:519][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.06-11.36.36:519][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.06-11.36.36:862][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.06-11.36.38:050][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projetopacman, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1135870952
+[2016.12.06-11.36.38:119][  0]LogAssetRegistry: FAssetRegistry took 0.0228 seconds to start up
+[2016.12.06-11.36.42:720][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 4.591216 seconds
+[2016.12.06-11.36.42:768][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.06-11.36.42:770][  0]LogUObjectAllocator: 6125448 out of 0 bytes used by permanent object pool.
+[2016.12.06-11.36.42:771][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.06-11.36.42:819][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.06-11.36.43:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-11.36.43:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.06-11.36.44:698][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.06-11.36.44:727][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.06-11.36.45:921][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-11.36.45:923][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-11.36.45:951][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-11.36.45:973][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-11.36.46:476][  0]LogEngine: Initializing Engine...
+[2016.12.06-11.36.46:477][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.06-11.36.46:666][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-11.36.46:675][  0]LogInit: XAudio2 using 'Fones de ouvido/Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-11.36.46:868][  0]LogInit: FAudioDevice initialized.
+[2016.12.06-11.36.46:995][  0]LogDerivedDataCache: Saved boot cache 0.13s 62MB C:/Users/Jefferson/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.06-11.36.47:008][  0]LogInit: Texture streaming: Enabled
+[2016.12.06-11.36.47:054][  0]LogInit: Transaction tracking system initialized
+[2016.12.06-11.36.47:097][  0]BlueprintLog: New page: Carregar Editor
+[2016.12.06-11.36.47:288][  0]LocalizationService: Informações Localization service is disabled
+[2016.12.06-11.36.47:729][  0]LogConsoleResponse:Display: 
+[2016.12.06-11.36.47:962][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.06-11.36.47:962][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.06-11.36.48:155][  0]LogFileCache: Scanning file cache for directory 'F:/v2/ProjetoPacMan/Content/' took 0.02s
+[2016.12.06-11.36.48:259][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.06-11.36.48:260][  0]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.36.48:279][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.36.48:284][  0]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.36.48:284][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.36.49:812][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.12.06-11.36.49:874][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.36.49:875][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.36.50:047][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 172,203ms to complete.
+[2016.12.06-11.36.50:048][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.788
+[2016.12.06-11.36.50:687][  0]LogCollectionManager: Loaded 0 collections in 0.012118 seconds
+[2016.12.06-11.36.50:752][  0]LogFileCache: Scanning file cache for directory 'F:/v2/ProjetoPacMan/Saved/Collections/' took 0.01s
+[2016.12.06-11.36.50:752][  0]LogFileCache: Scanning file cache for directory 'F:/v2/ProjetoPacMan/Content/Developers/Jefferson/Collections/' took 0.01s
+[2016.12.06-11.36.50:752][  0]LogFileCache: Scanning file cache for directory 'F:/v2/ProjetoPacMan/Content/Collections/' took 0.01s
+[2016.12.06-11.36.50:752][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000009 seconds
+[2016.12.06-11.36.50:780][  0]LogContentBrowser: Native class hierarchy populated in 0.0269 seconds. Added 2143 classes and 417 folders.
+[2016.12.06-11.36.50:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.06-11.36.50:789][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.06-11.36.50:793][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0032 seconds. Added 12 classes and 0 folders.
+[2016.12.06-11.36.50:804][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0017 seconds. Added 0 classes and 0 folders.
+[2016.12.06-11.36.53:377][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0057 seconds. Added 0 classes and 0 folders.
+[2016.12.06-11.36.53:407][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0056 seconds. Added 1 classes and 2 folders.
+[2016.12.06-11.36.53:680][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.06-11.36.53:878][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.12.06-11.36.53:920][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2016.12.06-11.36.53:921][  0]LogLoad: (Engine Initialization) Total time: 35.13 seconds
+[2016.12.06-11.36.53:921][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2016.12.06-11.36.53:921][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.06-11.36.53:921][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.06-11.36.54:260][  0]LogOcInput: OculusInput pre-init called
+[2016.12.06-11.36.54:284][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.12.06-11.36.54:738][  0]LogRenderer: Reallocating scene render targets to support 800x280 (Frame:2).
+[2016.12.06-11.36.55:396][  1]LogHttp:Warning: 00000244318CFE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.36.55:396][  1]LogHttp:Warning: 00000244318CFE80: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.06-11.36.55:396][  1]LogHttp:Warning: 00000244318CFE80: libcurl info message cache 9 (Closing connection 0)
+[2016.12.06-11.36.55:641][  2]LogHttp:Warning: 0000024434E1D780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.36.55:642][  2]LogHttp:Warning: 0000024434E1D780: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.06-11.36.55:642][  2]LogHttp:Warning: 0000024434E1D780: libcurl info message cache 9 (Closing connection 1)
+[2016.12.06-11.36.56:419][  3]LogHttp:Warning: 0000024434AF5900: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.36.56:419][  3]LogHttp:Warning: 0000024434AF5900: libcurl info message cache 8 (Could not resolve host: cdn.unrealengine.com)
+[2016.12.06-11.36.56:419][  3]LogHttp:Warning: 0000024434AF5900: libcurl info message cache 9 (Closing connection 2)
+[2016.12.06-11.36.57:650][  6]LogAssetRegistry: Asset discovery search completed in 19.5544 seconds
+[2016.12.06-11.36.57:650][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.12.06-11.36.57:650][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000069 seconds (updated 0 objects)
+[2016.12.06-11.37.07:704][237]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.12.06-11.37.07:704][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-11.37.07:753][237]PIE: New page: Sessão de PIE : Minimal_Default (06/12/2016 05:37:07)
+[2016.12.06-11.37.09:424][237]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2016.12.06-11.37.09:480][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.055661s)
+[2016.12.06-11.37.09:482][237]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.12.06-11.37.09:483][237]LogPlayLevel: PIE: World Init took: (0.003298s)
+[2016.12.06-11.37.09:484][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.060029s)
+[2016.12.06-11.37.09:563][237]LogInit: XAudio2 using 'Fones de ouvido/Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-11.37.09:593][237]LogInit: FAudioDevice initialized.
+[2016.12.06-11.37.09:686][237]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-11.37.09:703][237]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2016.12.06-08.37.09
+[2016.12.06-11.37.09:704][237]LogWorld: Bringing up level for play took: 0.015727
+[2016.12.06-11.37.09:711][237]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-11.37.09:734][237]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0051 seconds. Added 11 classes and 0 folders.
+[2016.12.06-11.37.09:734][237]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.37.09:734][237]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.37.09:735][237]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.37.09:746][237]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.37.09:761][237]PIE: Informações Momento de início de reprodução no editor para /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 2,67
+[2016.12.06-11.37.09:762][237]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.12.06-11.37.09:981][237]LogRenderer: Reallocating scene render targets to support 800x380 (Frame:206).
+[2016.12.06-11.37.12:754][313]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.12.06-11.37.13:650][313]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2016.12.06-11.37.30:866][944]LogUObjectHash:Warning: Ambiguous search, could be Function /Game/Blueprints/PacManBP.PacManBP_C:Gate or Function /Game/Blueprints/PacManBP.SKEL_PacManBP_C:Gate
+[2016.12.06-11.37.30:883][944]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0023 seconds. Added 112 classes and 0 folders.
+[2016.12.06-11.37.40:361][764]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.06-11.37.42:277][876]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.12.06-11.37.45:524][190]BlueprintLog: New page: Compilar GameModePM
+[2016.12.06-11.37.54:007][513]LogHttp:Warning: 000002445308A500: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.37.54:007][513]LogHttp:Warning: 000002445308A500: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.37.54:007][513]LogHttp:Warning: 000002445308A500: libcurl info message cache 9 (Closing connection 3)
+[2016.12.06-11.37.55:294][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:294][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:294][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Blueprints/BlinkyGhostBP
+[2016.12.06-11.37.55:350][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:350][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:371][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:372][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:372][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:372][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:372][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/i
+[2016.12.06-11.37.55:372][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:373][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:373][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/i1
+[2016.12.06-11.37.55:373][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:373][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:373][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/L
+[2016.12.06-11.37.55:383][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:383][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:383][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/T
+[2016.12.06-11.37.55:383][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:384][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:384][566]LoadErrors:Error: Erro /Game/Levels/FristMaze : Não é possível encontrar o arquivo do ativo. /Game/Levels/t1
+[2016.12.06-11.37.55:387][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:387][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:387][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:387][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:387][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:388][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:388][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:388][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:388][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:389][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:389][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:389][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:390][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:390][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:391][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:392][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:393][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:394][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:415][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:415][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:416][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:417][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:417][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:417][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:418][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:418][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:419][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:419][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:419][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:427][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:427][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:427][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Blueprints/BlinkyGhostBP”
+[2016.12.06-11.37.55:427][566]LoadErrors: Informações Falha ao carregar /Game/Blueprints/BlinkyGhostBP.BlinkyGhostBP_C Referenciado por PersistentLevel
+[2016.12.06-11.37.55:428][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Blueprints/BlinkyGhostBP.
+[2016.12.06-11.37.55:429][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:429][566]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall
+[2016.12.06-11.37.55:429][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:429][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:429][566]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_0
+[2016.12.06-11.37.55:430][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:430][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:430][566]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_1
+[2016.12.06-11.37.55:430][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:430][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:430][566]LoadErrors: Informações Falha ao carregar /Game/Levels/L.L Referenciado por wall_11
+[2016.12.06-11.37.55:430][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:431][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/L”
+[2016.12.06-11.37.55:431][566]LoadErrors: Informações Falha ao carregar /Game/Levels/L.L Referenciado por wall_12
+[2016.12.06-11.37.55:431][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/L.
+[2016.12.06-11.37.55:431][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:431][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_13
+[2016.12.06-11.37.55:431][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:431][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:431][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_14
+[2016.12.06-11.37.55:432][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:432][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:432][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_15
+[2016.12.06-11.37.55:432][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:432][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:432][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_16
+[2016.12.06-11.37.55:432][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:433][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:433][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_17
+[2016.12.06-11.37.55:433][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:433][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:433][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_18
+[2016.12.06-11.37.55:433][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:434][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:434][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_19
+[2016.12.06-11.37.55:434][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:434][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:434][566]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_2
+[2016.12.06-11.37.55:434][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.55:434][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i1”
+[2016.12.06-11.37.55:434][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i1.i1 Referenciado por wall_20
+[2016.12.06-11.37.55:435][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i1.
+[2016.12.06-11.37.55:435][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/i”
+[2016.12.06-11.37.55:435][566]LoadErrors: Informações Falha ao carregar /Game/Levels/i.i Referenciado por wall_21
+[2016.12.06-11.37.55:435][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/i.
+[2016.12.06-11.37.55:435][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:435][566]LoadErrors: Informações Falha ao carregar /Game/Levels/T.T Referenciado por wall_3
+[2016.12.06-11.37.55:435][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:436][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/T”
+[2016.12.06-11.37.55:436][566]LoadErrors: Informações Falha ao carregar /Game/Levels/T.T Referenciado por wall_4
+[2016.12.06-11.37.55:436][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/T.
+[2016.12.06-11.37.55:436][566]LogLinker:Warning: Não é possível encontrar o arquivo “/Game/Levels/t1”
+[2016.12.06-11.37.55:436][566]LoadErrors: Informações Falha ao carregar /Game/Levels/t1.t1 Referenciado por wall_5
+[2016.12.06-11.37.55:436][566]LogLinker:Warning: Não é possível encontrar o arquivo do ativo “NULL” ao carregar /Game/Levels/t1.
+[2016.12.06-11.37.56:010][566]LogAIModule: Creating AISystem for world FristMaze
+[2016.12.06-11.37.58:086][566]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/GameModePM" FILE="F:/v2/ProjetoPacMan/Content/Blueprints/GameModePM.uasset" SILENT=true
+[2016.12.06-11.38.02:210][566]LogSavePackage: Save=1910.85ms
+[2016.12.06-11.38.02:210][566]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/GameModePM043675E54E623173711961896BF3B7A2.tmp' to 'F:/v2/ProjetoPacMan/Content/Blueprints/GameModePM.uasset'
+[2016.12.06-11.38.02:272][566]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Content/Blueprints/GameModePM.uasset
+[2016.12.06-11.38.02:274][566]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/Levels/FristMaze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.38.02:274][566]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.02:276][566]LoadErrors: New page: Carregando mapa: FristMaze.umap
+[2016.12.06-11.38.02:278][566]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.38.02:278][566]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.02:480][566]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.38.02:918][566]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.38.03:206][566]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 288,216ms to complete.
+[2016.12.06-11.38.03:207][566]LogFileHelpers: Loading map 'FristMaze' took 0.936
+[2016.12.06-11.38.03:212][566]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'Collider': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-11.38.03:212][566]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'FloatingPawnMovement': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-11.38.03:212][566]LoadErrors:Warning: Advertência CreateExport: Failed to load Outer for resource 'SkeletalMesh': BlinkyGhostBP_C /Game/Levels/FristMaze.FristMaze:PersistentLevel.BlinkGhostBP_146
+[2016.12.06-11.38.07:001][720]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-11.38.07:119][720]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/Levels/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.38.07:119][720]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.07:120][720]LoadErrors: New page: Carregando mapa: Maze.umap
+[2016.12.06-11.38.07:121][720]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.38.07:121][720]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.07:294][720]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.38.07:747][720]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.38.08:103][720]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 354,991ms to complete.
+[2016.12.06-11.38.08:108][720]LogFileHelpers: Loading map 'Maze' took 0.989
+[2016.12.06-11.38.11:474][819]LogAIModule: Creating AISystem for world NewMap
+[2016.12.06-11.38.11:513][819]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/Levels/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.38.11:513][819]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.11:514][819]LoadErrors: New page: Carregando mapa: NewMap.umap
+[2016.12.06-11.38.11:517][819]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.38.11:517][819]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.11:616][819]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.38.11:795][819]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.38.12:254][819]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 459,066ms to complete.
+[2016.12.06-11.38.12:257][819]LogFileHelpers: Loading map 'NewMap' took 0.744
+[2016.12.06-11.38.16:066][ 32]LogAIModule: Creating AISystem for world Untitled
+[2016.12.06-11.38.16:105][ 32]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/Levels/Untitled.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.38.16:105][ 32]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.16:106][ 32]LoadErrors: New page: Carregando mapa: Untitled.umap
+[2016.12.06-11.38.16:107][ 32]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.38.16:107][ 32]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.16:201][ 32]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.38.16:378][ 32]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.38.16:649][ 32]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 270,509ms to complete.
+[2016.12.06-11.38.16:650][ 32]LogFileHelpers: Loading map 'Untitled' took 0.545
+[2016.12.06-11.38.19:688][199]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-11.38.19:801][199]Cmd: MAP LOAD FILE="F:/v2/ProjetoPacMan/Content/Levels/Maze.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.06-11.38.19:802][199]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.19:802][199]LoadErrors: New page: Carregando mapa: Maze.umap
+[2016.12.06-11.38.19:803][199]MapCheck: New page: Verificação de Mapa
+[2016.12.06-11.38.19:803][199]LightingResults: New page: Compilação de Iluminação
+[2016.12.06-11.38.19:963][199]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.06-11.38.20:399][199]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.06-11.38.20:664][199]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 265,72ms to complete.
+[2016.12.06-11.38.20:667][199]LogFileHelpers: Loading map 'Maze' took 0.866
+[2016.12.06-11.38.28:221][475]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.38.28:221][475]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-11.38.28:222][475]PIE: New page: Sessão de PIE : Maze (06/12/2016 05:38:28)
+[2016.12.06-11.38.28:223][475]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-11.38.28:281][475]LogPlayLevel: PIE: StaticDuplicateObject took: (0.058164s)
+[2016.12.06-11.38.28:283][475]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-11.38.28:284][475]LogPlayLevel: PIE: World Init took: (0.002387s)
+[2016.12.06-11.38.28:284][475]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.061404s)
+[2016.12.06-11.38.28:345][475]LogInit: XAudio2 using 'Fones de ouvido/Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-11.38.28:381][475]LogInit: FAudioDevice initialized.
+[2016.12.06-11.38.28:444][475]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-11.38.28:512][475]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-08.38.28
+[2016.12.06-11.38.28:514][475]LogWorld: Bringing up level for play took: 0.067725
+[2016.12.06-11.38.28:515][475]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-11.38.28:515][475]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.38.28:515][475]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.38.28:515][475]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.38.28:519][475]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.38.28:528][475]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze -0,564
+[2016.12.06-11.38.28:528][475]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.39.28:235][445]LogHttp:Warning: 00000244524B1F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.39.28:235][445]LogHttp:Warning: 00000244524B1F00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.39.28:235][445]LogHttp:Warning: 00000244524B1F00: libcurl info message cache 9 (Closing connection 4)
+[2016.12.06-11.39.31:991][569]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.39.32:123][569]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.40.32:557][ 33]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit11)
+[2016.12.06-11.40.46:156][567]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0057 seconds. Added 2 classes and 2 folders.
+[2016.12.06-11.40.53:853][ 10]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Steam_Lit" FILE="F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset" SILENT=true
+[2016.12.06-11.40.57:688][ 10]LogSavePackage: Save=3196.14ms
+[2016.12.06-11.40.57:688][ 10]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/P_Steam_LitB246ADE2460C77CD4AB46B8418ED4722.tmp' to 'F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset'
+[2016.12.06-11.40.57:756][ 10]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2016.12.06-11.41.32:177][375]Cmd: EDIT COPY
+[2016.12.06-11.41.34:067][445]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.12.06-11.41.34:601][460]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2016.12.06-11.41.37:696][599]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit11)
+[2016.12.06-11.41.39:042][649]Cmd: EDIT PASTE
+[2016.12.06-11.41.44:663][854]Cmd: EDIT PASTE
+[2016.12.06-11.41.46:136][904]LogHttp:Warning: 0000024435051F00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.41.46:136][904]LogHttp:Warning: 0000024435051F00: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.41.46:136][904]LogHttp:Warning: 0000024435051F00: libcurl info message cache 9 (Closing connection 5)
+[2016.12.06-11.41.57:297][331]Cmd: EDIT PASTE
+[2016.12.06-11.42.54:843][838]LogHttp:Warning: 0000024435049D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.42.54:844][838]LogHttp:Warning: 0000024435049D80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.42.54:844][838]LogHttp:Warning: 0000024435049D80: libcurl info message cache 9 (Closing connection 6)
+[2016.12.06-11.43.28:182][820]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit15)
+[2016.12.06-11.43.28:946][848]Cmd: EDIT COPY
+[2016.12.06-11.43.29:318][863]Cmd: EDIT PASTE
+[2016.12.06-11.43.33:772][ 31]Cmd: EDIT PASTE
+[2016.12.06-11.43.39:007][220]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.43.39:007][220]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-11.43.39:008][220]PIE: New page: Sessão de PIE : Maze (06/12/2016 05:43:39)
+[2016.12.06-11.43.39:009][220]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-11.43.39:063][220]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053090s)
+[2016.12.06-11.43.39:064][220]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-11.43.39:065][220]LogPlayLevel: PIE: World Init took: (0.002175s)
+[2016.12.06-11.43.39:066][220]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.056980s)
+[2016.12.06-11.43.39:127][220]LogInit: XAudio2 using 'Fones de ouvido/Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-11.43.39:163][220]LogInit: FAudioDevice initialized.
+[2016.12.06-11.43.39:223][220]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-11.43.39:286][220]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-08.43.39
+[2016.12.06-11.43.39:288][220]LogWorld: Bringing up level for play took: 0.064116
+[2016.12.06-11.43.39:289][220]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-11.43.39:289][220]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.43.39:289][220]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.43.39:289][220]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.43.39:292][220]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.43.39:297][220]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,206
+[2016.12.06-11.43.39:297][220]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.03:904][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.04:125][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.11:049][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Particles/P_Steam_Lit" FILE="F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset" SILENT=true
+[2016.12.06-11.44.14:521][395]LogSavePackage: Save=3192.21ms
+[2016.12.06-11.44.14:521][395]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/P_Steam_Lit3135CC9540BAA817FEA88FAF22D00F6D.tmp' to 'F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset'
+[2016.12.06-11.44.14:591][395]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Content/StarterContent/Particles/P_Steam_Lit.uasset
+[2016.12.06-11.44.18:691][607]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.18:691][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.12.06-11.44.18:691][607]PIE: New page: Sessão de PIE : Maze (06/12/2016 05:44:18)
+[2016.12.06-11.44.18:693][607]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Maze
+[2016.12.06-11.44.18:746][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053837s)
+[2016.12.06-11.44.18:748][607]LogAIModule: Creating AISystem for world Maze
+[2016.12.06-11.44.18:749][607]LogPlayLevel: PIE: World Init took: (0.002725s)
+[2016.12.06-11.44.18:750][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Maze.Maze to /Game/Levels/UEDPIE_0_Maze.Maze (0.057473s)
+[2016.12.06-11.44.18:851][607]LogInit: XAudio2 using 'Fones de ouvido/Alto falantes (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.06-11.44.18:904][607]LogInit: FAudioDevice initialized.
+[2016.12.06-11.44.18:981][607]LogWorld: Game class is 'GameModePM_C'
+[2016.12.06-11.44.19:094][607]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Maze.Maze up for play (max tick rate 0) at 2016.12.06-08.44.19
+[2016.12.06-11.44.19:100][607]LogWorld: Bringing up level for play took: 0.116722
+[2016.12.06-11.44.19:103][607]LogSpawn:Warning: SpawnActor failed because no class was specified
+[2016.12.06-11.44.19:103][607]LogGameMode:Display: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.44.19:103][607]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2016.12.06-11.44.19:103][607]LogGameMode:Display: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.44.19:108][607]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2016.12.06-11.44.19:120][607]PIE: Informações Momento de início de reprodução no editor para /Game/Levels/UEDPIE_0_Maze 0,029
+[2016.12.06-11.44.19:121][607]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.31:977][  1]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.32:140][  1]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Maze.Maze:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Maze.Maze:PersistentLevel.Maze' with GeneratedClass '/Game/Levels/Maze.Maze_C' with ClassGeneratedBy '/Game/Levels/Maze.Maze:PersistentLevel.Maze'
+[2016.12.06-11.44.38:734][257]LogHttp:Warning: 00000244350D4400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.44.38:734][257]LogHttp:Warning: 00000244350D4400: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.44.38:734][257]LogHttp:Warning: 00000244350D4400: libcurl info message cache 9 (Closing connection 7)
+[2016.12.06-11.44.41:054][348]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit14)
+[2016.12.06-11.44.42:951][413]Cmd: EDIT COPY
+[2016.12.06-11.44.43:253][425]Cmd: EDIT PASTE
+[2016.12.06-11.45.02:433][ 93]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.02:733][ 93]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.02:753][ 93]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.06:972][216]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 22 instructions
+[2016.12.06-11.45.06:972][216]MaterialEditorStats: Informações Vertex shader: 29 instructions
+[2016.12.06-11.45.06:972][216]MaterialEditorStats: Informações Texture samplers: 0/16
+[2016.12.06-11.45.10:752][316]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.10:814][316]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.10:891][316]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.15:046][443]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.15:073][443]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.16:610][472]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.16:636][472]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.17:491][491]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.17:522][491]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.26:458][781]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.26:475][781]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.35:127][ 54]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.35:146][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.41:779][245]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.41:795][245]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.50:502][502]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.45.50:518][502]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.45.55:493][620]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 26 instructions
+[2016.12.06-11.45.55:493][620]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 63 instructions
+[2016.12.06-11.45.55:493][620]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.45.55:493][620]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.46.00:595][758]LogHttp:Warning: 0000024419AF5600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.46.00:595][758]LogHttp:Warning: 0000024419AF5600: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.46.00:595][758]LogHttp:Warning: 0000024419AF5600: libcurl info message cache 9 (Closing connection 8)
+[2016.12.06-11.46.06:794][949]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.46.06:812][949]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.46.12:131][ 90]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 26 instructions
+[2016.12.06-11.46.12:131][ 90]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 63 instructions
+[2016.12.06-11.46.12:131][ 90]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.46.12:131][ 90]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.46.19:011][292]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.46.19:028][292]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.46.23:978][414]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 26 instructions
+[2016.12.06-11.46.23:978][414]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 63 instructions
+[2016.12.06-11.46.23:978][414]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.46.23:978][414]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.46.33:893][670]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.46.33:909][670]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.46.39:433][845]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 26 instructions
+[2016.12.06-11.46.39:433][845]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 63 instructions
+[2016.12.06-11.46.39:433][845]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.46.39:433][845]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.46.46:893][ 79]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.46.46:909][ 79]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.46.51:683][186]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 28 instructions
+[2016.12.06-11.46.51:683][186]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 65 instructions
+[2016.12.06-11.46.51:683][186]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.46.51:683][186]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.47.12:024][732]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.12:049][732]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.12:052][732]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.12:068][732]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.20:963][992]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.20:982][992]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.20:983][992]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.25:680][114]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.25:709][114]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.25:740][114]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.27:283][154]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.27:312][154]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.31:256][250]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.31:283][250]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.31:348][250]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.36:553][364]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 28 instructions
+[2016.12.06-11.47.36:553][364]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 65 instructions
+[2016.12.06-11.47.36:553][364]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.47.36:553][364]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.47.40:199][453]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.40:217][453]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.40:249][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.45:314][563]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 28 instructions
+[2016.12.06-11.47.45:314][563]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 65 instructions
+[2016.12.06-11.47.45:314][563]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.47.45:314][563]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.47.48:312][640]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.48:330][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.48:360][640]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.50:491][684]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.50:519][684]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.50:586][684]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.51:700][709]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.47.51:731][709]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.47.51:763][709]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.47.54:379][765]LogHttp:Warning: 0000024435E85A80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.47.54:379][765]LogHttp:Warning: 0000024435E85A80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.47.54:379][765]LogHttp:Warning: 0000024435E85A80: libcurl info message cache 9 (Closing connection 9)
+[2016.12.06-11.47.59:606][875]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.47.59:606][875]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.47.59:606][875]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.47.59:606][875]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.48.30:265][654]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.30:288][654]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.48.37:785][816]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.48.37:785][816]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.48.37:785][816]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.48.37:785][816]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.48.41:154][888]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.41:177][888]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.48.45:688][  8]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.45:728][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.48.45:736][  8]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.45:775][  8]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.48.49:397][104]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.49:434][104]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.48.49:463][104]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.48.52:474][190]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.48.52:512][190]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.01:834][405]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 30 instructions
+[2016.12.06-11.49.01:834][405]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-11.49.01:834][405]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.49.01:834][405]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.49.08:057][617]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.08:073][617]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.13:043][729]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 30 instructions
+[2016.12.06-11.49.13:043][729]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-11.49.13:043][729]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.49.13:043][729]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.49.20:329][900]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.20:345][900]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.20:373][900]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2016.12.06-11.49.25:231][  2]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 31 instructions
+[2016.12.06-11.49.25:232][  2]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-11.49.25:232][  2]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.49.25:232][  2]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.49.37:386][327]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.37:404][327]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.44:964][551]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.44:983][551]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.44:988][551]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.45:005][551]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.49:868][671]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 31 instructions
+[2016.12.06-11.49.49:868][671]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-11.49.49:868][671]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.49.49:868][671]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.49.51:213][717]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.51:232][717]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.49.53:624][785]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.49.53:653][785]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.02:141][ 52]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.02:158][ 52]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.02:159][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.02:195][ 52]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.02:222][ 52]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.02:358][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.07:443][163]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 31 instructions
+[2016.12.06-11.50.07:443][163]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-11.50.07:443][163]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.50.07:443][163]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.50.09:202][213]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.09:220][213]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.09:252][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.10:044][230]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.10:072][230]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.10:104][230]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.10:869][248]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.10:897][248]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.10:925][248]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.13:589][306]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.13:619][306]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.13:648][306]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.16:625][370]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.16:654][370]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.16:737][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-11.50.24:114][530]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 32 instructions
+[2016.12.06-11.50.24:114][530]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 68 instructions
+[2016.12.06-11.50.24:114][530]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.50.24:114][530]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.50.53:004][287]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.53:030][287]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.50.53:035][287]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.50.53:057][287]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.51.02:296][493]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 32 instructions
+[2016.12.06-11.51.02:296][493]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 68 instructions
+[2016.12.06-11.51.02:296][493]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.51.02:296][493]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.51.06:479][591]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.51.06:495][591]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.51.11:331][703]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 33 instructions
+[2016.12.06-11.51.11:331][703]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 69 instructions
+[2016.12.06-11.51.11:331][703]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.51.11:331][703]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.51.13:566][752]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.51.13:582][752]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.51.18:585][868]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 32 instructions
+[2016.12.06-11.51.18:585][868]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 68 instructions
+[2016.12.06-11.51.18:585][868]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.51.18:585][868]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.51.42:997][403]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.51.43:012][403]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.51.46:294][477]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.51.46:321][477]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.51.51:729][603]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 33 instructions
+[2016.12.06-11.51.51:729][603]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 69 instructions
+[2016.12.06-11.51.51:729][603]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.51.51:729][603]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.52.01:460][826]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.52.01:476][826]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.52.06:230][935]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 33 instructions
+[2016.12.06-11.52.06:230][935]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 69 instructions
+[2016.12.06-11.52.06:230][935]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.52.06:230][935]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.52.49:136][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maze" FILE="F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-11.53.49:651][518]LogSavePackage: Save=59993.45ms
+[2016.12.06-11.53.49:651][518]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/Maze_Auto1552F8D054D6B2C70A12CEA9FCC1A26AC.tmp' to 'F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap'
+[2016.12.06-11.53.49:939][518]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto1.umap
+[2016.12.06-11.53.50:477][518]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maze' took 61.447
+[2016.12.06-11.53.50:477][518]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 61.447
+[2016.12.06-11.53.50:483][518]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/CuHelton] ([1] browsable assets)...
+[2016.12.06-11.53.50:560][518]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/CuHelton.CuHelton]
+[2016.12.06-11.53.50:560][518]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/CuHelton]
+[2016.12.06-11.53.50:560][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CuHelton" FILE="F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Materials/CuHelton_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-11.53.52:052][518]LogSavePackage: Save=984.92ms
+[2016.12.06-11.53.52:055][518]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/CuHelton_Auto1FB6FB5094DA0DBB26F4123A92EAC5D2D.tmp' to 'F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Materials/CuHelton_Auto1.uasset'
+[2016.12.06-11.53.52:574][518]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Materials/CuHelton_Auto1.uasset
+[2016.12.06-11.53.52:574][518]LogFileHelpers: Auto-saving content packages took 2.094
+[2016.12.06-11.53.52:829][522]LogHttp:Warning: 0000024419B39480: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.53.52:829][522]LogHttp:Warning: 0000024419B39480: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.53.52:829][522]LogHttp:Warning: 0000024419B39480: libcurl info message cache 9 (Closing connection 10)
+[2016.12.06-11.54.09:786][ 36]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.54.09:786][ 36]LogMaterial:Warning: Failed to compile Material /Engine/Transient.CuHelton for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.06-11.54.09:786][ 36]LogMaterial:Warning: 	Tangent output> Input missing
+[2016.12.06-11.54.09:787][ 36]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.54.09:789][ 36]MaterialEditorStats:Error: Erro [SM5] Tangent output> Input missing
+[2016.12.06-11.54.15:309][170]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.54.15:325][170]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.54.21:498][336]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 33 instructions
+[2016.12.06-11.54.21:498][336]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 69 instructions
+[2016.12.06-11.54.21:499][336]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.54.21:499][336]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.54.37:220][780]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.54.37:236][780]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.54.37:283][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.54.37:291][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-11.54.43:586][950]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.54.43:603][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.54.43:636][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-11.54.48:516][ 63]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 32 instructions
+[2016.12.06-11.54.48:516][ 63]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 69 instructions
+[2016.12.06-11.54.48:516][ 63]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.54.48:516][ 63]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.55.16:646][708]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.16:663][708]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.20:329][804]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.20:359][804]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.24:304][900]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.24:333][900]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.26:653][958]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.26:682][958]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.33:038][135]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.33:054][135]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.37:609][231]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.55.37:609][231]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.55.37:609][231]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.55.37:609][231]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.55.50:246][571]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.50:266][571]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.53:727][665]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.55.53:755][665]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.55.59:378][793]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.55.59:378][793]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.55.59:379][793]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.55.59:379][793]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.56.14:858][149]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.56.14:874][149]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.56.17:688][223]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.56.17:718][223]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.56.23:348][365]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.56.23:348][365]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.56.23:348][365]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.56.23:348][365]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.56.54:815][186]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.56.54:834][186]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.56.58:228][264]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.56.58:257][264]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.57.03:544][385]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.57.03:544][385]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.57.03:544][385]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.57.03:545][385]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.57.04:056][395]LogMaterialEditor: Saving and Compiling material CuHelton
+[2016.12.06-11.57.06:201][395]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.57.06:294][395]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.57.06:375][395]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.57.06:426][395]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-11.57.06:462][395]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.57.12:657][395]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CuHelton" FILE="F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset" SILENT=true
+[2016.12.06-11.57.13:559][395]LogSavePackage: Save=621.60ms
+[2016.12.06-11.57.13:559][395]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/CuHelton0C75C2334A572F504F67449A7A620B00.tmp' to 'F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset'
+[2016.12.06-11.57.13:912][395]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset
+[2016.12.06-11.57.13:926][395]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 49 instructions
+[2016.12.06-11.57.13:926][395]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 85 instructions
+[2016.12.06-11.57.13:926][395]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.57.13:927][395]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.57.32:719][873]LogRenderer: Reallocating scene render targets to support 824x588 (Frame:35372).
+[2016.12.06-11.57.54:300][297]LogHttp:Warning: 000002448A215780: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.57.54:300][297]LogHttp:Warning: 000002448A215780: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.57.54:300][297]LogHttp:Warning: 000002448A215780: libcurl info message cache 9 (Closing connection 11)
+[2016.12.06-11.58.03:026][503]BlueprintLog: New page: Compilar Super_Tablet_DM_BP
+[2016.12.06-11.58.20:068][ 39]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.12.06-11.58.23:679][167]LogEditorViewport: Clicking on Actor (LMB): Super_Tablet_DM_BP_C (Super_Tablet_DM_BP2)
+[2016.12.06-11.58.25:630][234]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2016.12.06-11.58.49:743][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.58.50:992][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.58.51:039][  0]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.58.51:098][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-11.58.51:113][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.58.59:955][199]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.58.59:955][199]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.58.59:955][199]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.58.59:955][199]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-11.59.03:145][266]LogHttp:Warning: 0000024419B1BE80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-11.59.03:145][266]LogHttp:Warning: 0000024419B1BE80: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-11.59.03:145][266]LogHttp:Warning: 0000024419B1BE80: libcurl info message cache 9 (Closing connection 12)
+[2016.12.06-11.59.07:364][381]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.07:388][381]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.07:417][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.11:095][479]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.11:134][479]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.11:166][479]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.12:175][494]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.12:212][494]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.12:240][494]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.13:022][509]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.13:059][509]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.13:087][509]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.13:753][522]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.13:796][522]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.13:829][522]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.15:613][556]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.15:653][556]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.15:682][556]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.17:951][598]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.17:991][598]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.18:023][598]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.19:548][636]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.19:593][636]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.19:622][636]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.21:704][686]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-11.59.21:744][686]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-11.59.21:812][686]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-11.59.29:668][830]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-11.59.29:668][830]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-11.59.29:668][830]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-11.59.29:668][830]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.00.05:842][560]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.00.05:866][560]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.00.05:898][560]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-12.00.07:585][610]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.00.07:626][610]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.00.07:656][610]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-12.00.15:205][750]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.00.15:205][750]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.00.15:205][750]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.00.15:206][750]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.00.21:305][861]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.00.21:328][861]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.00.21:408][861]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_4, compiling. 
+[2016.12.06-12.00.28:755][ 17]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.00.28:755][ 17]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.00.28:755][ 17]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.00.28:755][ 17]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.00.30:126][ 54]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.00.30:152][ 54]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.00.30:207][ 54]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2016.12.06-12.00.37:385][212]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.00.37:385][212]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.00.37:385][212]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.00.37:385][212]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.01.09:157][860]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.01.09:180][860]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.01.09:207][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2016.12.06-12.01.09:297][860]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.01.14:364][975]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.01.14:401][975]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.01.14:430][975]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.01.16:604][ 28]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.01.16:642][ 28]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.01.16:672][ 28]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.01.23:874][174]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.01.23:875][174]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.01.23:875][174]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.01.23:875][174]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.01.33:325][372]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.01.33:352][372]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.01.33:383][372]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.01.40:523][523]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.01.40:523][523]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.01.40:523][523]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.01.40:523][523]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.01.56:109][832]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.01.56:134][832]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.01.56:194][832]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.01:190][915]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.01:231][915]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.01:261][915]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.06:230][999]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.06:268][999]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.06:300][999]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.11:772][101]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.11:810][101]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.11:842][101]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.14:120][170]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.14:159][170]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.14:189][170]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.19:539][304]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.19:577][304]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.19:606][304]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_9, compiling. 
+[2016.12.06-12.02.27:086][442]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.02.27:086][442]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.02.27:086][442]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.02.27:086][442]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.02.29:106][477]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.29:145][477]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.29:178][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2016.12.06-12.02.36:834][630]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.02.36:834][630]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.02.36:834][630]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.02.36:834][630]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.02.47:441][864]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.47:463][864]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.47:493][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_8, compiling. 
+[2016.12.06-12.02.48:964][894]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.49:004][894]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.49:039][894]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_11, compiling. 
+[2016.12.06-12.02.49:049][894]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.02.53:104][983]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.53:144][983]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.53:178][983]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.02.54:334][  9]LogHttp:Warning: 000002445181C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-12.02.54:334][  9]LogHttp:Warning: 000002445181C400: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-12.02.54:334][  9]LogHttp:Warning: 000002445181C400: libcurl info message cache 9 (Closing connection 13)
+[2016.12.06-12.02.54:716][ 21]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.02.54:756][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.02.54:823][ 21]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.03.02:699][199]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.02:731][199]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.02:760][199]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.03.09:572][337]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.03.09:573][337]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.03.09:573][337]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.03.09:573][337]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.03.13:807][440]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.13:830][440]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.13:859][440]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.03.20:251][563]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.03.20:251][563]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.03.20:251][563]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.03.20:251][563]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.03.24:225][644]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.24:247][644]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.24:274][644]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_12, compiling. 
+[2016.12.06-12.03.31:200][789]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.03.31:200][789]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.03.31:200][789]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.03.31:201][789]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.03.34:926][887]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.34:962][887]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.41:467][ 24]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 30 instructions
+[2016.12.06-12.03.41:467][ 24]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 67 instructions
+[2016.12.06-12.03.41:467][ 24]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.03.41:467][ 24]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.03.58:621][461]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.58:645][461]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.59:618][480]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.03.59:658][480]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.03.59:661][480]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_13, compiling. 
+[2016.12.06-12.04.02:098][538]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.04.02:136][538]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.04.02:170][538]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_13, compiling. 
+[2016.12.06-12.04.09:167][684]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.04.09:167][684]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.04.09:167][684]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.04.09:167][684]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.04.12:369][750]LogMaterialEditor: Saving and Compiling material CuHelton
+[2016.12.06-12.04.13:291][750]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.12.06-12.04.13:335][750]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.04.13:380][750]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.04.13:441][750]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.04.13:493][750]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.04.23:344][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/CuHelton" FILE="F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset" SILENT=true
+[2016.12.06-12.04.51:322][750]LogSavePackage: Save=26077.37ms
+[2016.12.06-12.04.51:323][750]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/CuHelton5C5D8EEB4C697CA32700EA9B46FF6B30.tmp' to 'F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset'
+[2016.12.06-12.04.51:405][750]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Content/Materials/CuHelton.uasset
+[2016.12.06-12.04.51:418][750]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 49 instructions
+[2016.12.06-12.04.51:418][750]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 85 instructions
+[2016.12.06-12.04.51:418][750]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.04.51:418][750]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.04.51:796][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Maze" FILE="F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.12.06-12.05.31:854][751]LogSavePackage: Save=38212.66ms
+[2016.12.06-12.05.31:857][751]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/Maze_Auto25A25CD0445E1F07806932181161A1696.tmp' to 'F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto2.umap'
+[2016.12.06-12.05.32:140][751]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Levels/Maze_Auto2.umap
+[2016.12.06-12.05.32:669][751]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Maze' took 40.985
+[2016.12.06-12.05.32:669][751]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 40.985
+[2016.12.06-12.05.32:675][751]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Super_Tablet_DM_BP] ([1] browsable assets)...
+[2016.12.06-12.05.32:747][751]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/Super_Tablet_DM_BP.Super_Tablet_DM_BP]
+[2016.12.06-12.05.32:747][751]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Super_Tablet_DM_BP]
+[2016.12.06-12.05.32:747][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Super_Tablet_DM_BP" FILE="F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Super_Tablet_DM_BP_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2016.12.06-12.05.36:805][751]LogSavePackage: Save=2224.48ms
+[2016.12.06-12.05.36:805][751]LogSavePackage: Moving 'F:/v2/ProjetoPacMan/Saved/Super_Tablet_DM_BP_Auto26AB88D4247C11B199B461B95333660D2.tmp' to 'F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Super_Tablet_DM_BP_Auto2.uasset'
+[2016.12.06-12.05.36:831][751]LogSavePackage:Display: Finished SavePackage F:/v2/ProjetoPacMan/Saved/Autosaves/Game/Blueprints/Super_Tablet_DM_BP_Auto2.uasset
+[2016.12.06-12.05.36:831][751]LogFileHelpers: Auto-saving content packages took 4.160
+[2016.12.06-12.05.57:479][389]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.05.58:728][389]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.05.58:778][389]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.05.58:814][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_13, compiling. 
+[2016.12.06-12.05.58:824][389]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_11, compiling. 
+[2016.12.06-12.06.08:702][640]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.08:742][640]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.14:896][833]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.14:936][833]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.14:943][833]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.14:981][833]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.17:543][895]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.17:581][895]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.21:651][980]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.21:690][980]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.22:594][998]LogMaterialEditor: Applying material CuHelton
+[2016.12.06-12.06.24:084][998]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.24:162][998]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.24:214][998]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.06.24:275][998]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.06.24:327][998]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.41:498][383]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.41:534][383]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.06.48:138][516]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.06.48:138][516]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.06.48:138][516]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.06.48:138][516]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.06.53:757][625]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.06.53:780][625]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.00:926][777]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.07.00:926][777]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.07.00:926][777]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.07.00:926][777]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.07.23:561][276]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.23:584][276]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.25:648][332]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.25:686][332]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.30:784][461]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.30:786][461]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.06-12.07.30:786][461]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.12.06-12.07.30:787][461]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.30:790][461]MaterialEditorStats:Error: Erro [SM5] (Node Sine) Missing Sine input
+[2016.12.06-12.07.34:829][577]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.34:830][577]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.06-12.07.34:830][577]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.12.06-12.07.34:830][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.34:837][577]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.34:838][577]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.12.06-12.07.34:838][577]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.12.06-12.07.34:838][577]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.36:819][628]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.36:841][628]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.41:680][728]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.07.41:717][728]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.07.48:205][811]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.07.48:205][811]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.07.48:205][811]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.07.48:205][811]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.07.54:383][939]LogHttp:Warning: 0000024419B5F880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-12.07.54:383][939]LogHttp:Warning: 0000024419B5F880: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-12.07.54:383][939]LogHttp:Warning: 0000024419B5F880: libcurl info message cache 9 (Closing connection 14)
+[2016.12.06-12.08.02:854][111]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.08.02:877][111]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.08.08:944][231]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 29 instructions
+[2016.12.06-12.08.08:944][231]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 66 instructions
+[2016.12.06-12.08.08:944][231]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.08.08:944][231]MaterialEditorStats: Informações Texture samplers: 4/16
+[2016.12.06-12.08.12:601][307]LogMaterialEditor: Applying material CuHelton
+[2016.12.06-12.08.13:553][307]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.12.06-12.08.13:598][307]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.08.13:640][307]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.08.13:700][307]LogMaterial: Missing cached shader map for material CuHelton, compiling. 
+[2016.12.06-12.08.13:749][307]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.08.30:228][766]PIE:Warning: Advertência Invalid Simulate Options: Body (Super_Tablet_DM_BP3.Destructible) is set to simulate physics but Collision Enabled is incompatible
+[2016.12.06-12.08.38:101][  6]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit14)
+[2016.12.06-12.08.39:116][ 39]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit18)
+[2016.12.06-12.08.40:105][ 70]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit18)
+[2016.12.06-12.08.40:872][ 95]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit14)
+[2016.12.06-12.08.41:564][117]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Steam_Lit14)
+[2016.12.06-12.08.50:511][443]LogEditorViewport: Clicking on Actor (LMB): Super_Tablet_DM_BP_C (Super_Tablet_DM_BP2)
+[2016.12.06-12.09.03:148][995]Cmd: DELETE
+[2016.12.06-12.09.03:148][995]Cmd: ACTOR DELETE
+[2016.12.06-12.09.03:151][995]LogEditorActor: Deleted Actor: Super_Tablet_DM_BP_C
+[2016.12.06-12.09.03:217][995]LogEditorActor: Deleted 1 Actors (0.068 secs)
+[2016.12.06-12.09.20:013][674]LogMaterial: Missing cached shader map for material MirrorP2, compiling. 
+[2016.12.06-12.09.21:367][674]LogMaterial: Missing cached shader map for material MirrorP2, compiling. 
+[2016.12.06-12.09.21:417][674]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.09.21:451][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2016.12.06-12.09.21:468][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionReflectionVectorWS_0, compiling. 
+[2016.12.06-12.09.21:486][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-12.09.30:399][159]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 38 instructions
+[2016.12.06-12.09.30:399][159]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 75 instructions
+[2016.12.06-12.09.30:400][159]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.09.30:400][159]MaterialEditorStats: Informações Texture samplers: 5/16
+[2016.12.06-12.09.45:018][950]LogMaterial: Missing cached shader map for material MirrorP2, compiling. 
+[2016.12.06-12.09.45:042][950]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.09.45:076][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-12.09.51:614][289]LogMaterial: Missing cached shader map for material MirrorP2, compiling. 
+[2016.12.06-12.09.51:652][289]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.12.06-12.09.51:686][289]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2016.12.06-12.09.59:269][689]MaterialEditorStats: Informações Base pass shader with only dynamic lighting: 4 instructions
+[2016.12.06-12.09.59:269][689]MaterialEditorStats: Informações Base pass shader for self shadowed translucency: 4 instructions
+[2016.12.06-12.09.59:269][689]MaterialEditorStats: Informações Vertex shader: 64 instructions
+[2016.12.06-12.09.59:269][689]MaterialEditorStats: Informações Texture samplers: 3/16
+[2016.12.06-12.10.14:579][300]LogHttp:Warning: 000002447F535000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2016.12.06-12.10.14:579][300]LogHttp:Warning: 000002447F535000: libcurl info message cache 8 (Could not resolve host: datarouter.ol.epicgames.com)
+[2016.12.06-12.10.14:579][300]LogHttp:Warning: 000002447F535000: libcurl info message cache 9 (Closing connection 15)
+[2016.12.06-12.10.15:732][357]LogMaterial: Missing cached shader map for material MirrorP2, compiling. 
+[2016.12.06-12.10.15:758][357]LogMaterial: 0.00 second

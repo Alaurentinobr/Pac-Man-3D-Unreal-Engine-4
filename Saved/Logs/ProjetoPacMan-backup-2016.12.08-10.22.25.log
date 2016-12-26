@@ -1,0 +1,1083 @@
+﻿Log file open, 12/07/16 16:08:18
+LogInit:Display: Running engine for game: ProjetoPacMan
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1496412522) SRandInit(-1496412522).
+LogTaskGraph: Started task graph with 5 named threads and 6 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.136728
+LogPluginManager: Loaded Plugin Paper2D, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/2D/Paper2D/Paper2D.uplugin
+LogPluginManager: Loaded Plugin LightPropagationVolume, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Blendables/LightPropagationVolume/LightPropagationVolume.uplugin
+LogPluginManager: Loaded Plugin BlankPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/BlankPlugin/BlankPlugin.uplugin
+LogPluginManager: Loaded Plugin CodeLiteSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/CodeLiteSourceCodeAccess/CodeLiteSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin GitSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/GitSourceControl/GitSourceControl.uplugin
+LogPluginManager: Loaded Plugin KDevelopSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/KDevelopSourceCodeAccess/KDevelopSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin NullSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/NullSourceCodeAccess/NullSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin OneSkyLocalizationService, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/OneSkyLocalizationService/OneSkyLocalizationService.uplugin
+LogPluginManager: Loaded Plugin PerforceSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/PerforceSourceControl/PerforceSourceControl.uplugin
+LogPluginManager: Loaded Plugin SubversionSourceControl, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/SubversionSourceControl/SubversionSourceControl.uplugin
+LogPluginManager: Loaded Plugin UObjectPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/UObjectPlugin/UObjectPlugin.uplugin
+LogPluginManager: Loaded Plugin VisualStudioSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/VisualStudioSourceCodeAccess/VisualStudioSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin XCodeSourceCodeAccess, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Developer/XCodeSourceCodeAccess/XCodeSourceCodeAccess.uplugin
+LogPluginManager: Loaded Plugin EpicSurvey, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/EpicSurvey/EpicSurvey.uplugin
+LogPluginManager: Loaded Plugin MacGraphicsSwitching, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MacGraphicsSwitching/MacGraphicsSwitching.uplugin
+LogPluginManager: Loaded Plugin MobileLauncherProfileWizard, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/MobileLauncherProfileWizard/MobileLauncherProfileWizard.uplugin
+LogPluginManager: Loaded Plugin PluginBrowser, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/PluginBrowser/PluginBrowser.uplugin
+LogPluginManager: Loaded Plugin SpeedTreeImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SpeedTreeImporter/SpeedTreeImporter.uplugin
+LogPluginManager: Loaded Plugin SuperSearchEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Editor/SuperSearchEditor/SuperSearchEditor.uplugin
+LogPluginManager: Loaded Plugin AlembicImporter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/AlembicImporter/AlembicImporter.uplugin
+LogPluginManager: Loaded Plugin BlueprintStats, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/BlueprintStats/BlueprintStats.uplugin
+LogPluginManager: Loaded Plugin CharacterAI, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CharacterAI/CharacterAI.uplugin
+LogPluginManager: Loaded Plugin CodeEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeEditor/CodeEditor.uplugin
+LogPluginManager: Loaded Plugin CodeView, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/CodeView/CodeView.uplugin
+LogPluginManager: Loaded Plugin HTML5Networking, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/HTML5Networking/HTML5Networking.uplugin
+LogPluginManager: Loaded Plugin LiveEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/LiveEditor/LiveEditor.uplugin
+LogPluginManager: Loaded Plugin OSVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/OSVR/OSVR.uplugin
+LogPluginManager: Loaded Plugin Phya, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/Phya/Phya.uplugin
+LogPluginManager: Loaded Plugin SignificanceManager, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SignificanceManager/SignificanceManager.uplugin
+LogPluginManager: Loaded Plugin SimpleHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/SimpleHMD/SimpleHMD.uplugin
+LogPluginManager: Loaded Plugin StereoPanorama, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StereoPanorama/StereoPanorama.uplugin
+LogPluginManager: Loaded Plugin StructBox, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Experimental/StructBox/StructBox.uplugin
+LogPluginManager: Loaded Plugin AndroidMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AndroidMedia/AndroidMedia.uplugin
+LogPluginManager: Loaded Plugin AvfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/AvfMedia/AvfMedia.uplugin
+LogPluginManager: Loaded Plugin MediaPlayerEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/MediaPlayerEditor/MediaPlayerEditor.uplugin
+LogPluginManager: Loaded Plugin WmfMedia, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Media/WmfMedia/WmfMedia.uplugin
+LogPluginManager: Loaded Plugin MessagingDebugger, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/MessagingDebugger/MessagingDebugger.uplugin
+LogPluginManager: Loaded Plugin TcpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/TcpMessaging/TcpMessaging.uplugin
+LogPluginManager: Loaded Plugin UdpMessaging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Messaging/UdpMessaging/UdpMessaging.uplugin
+LogPluginManager: Loaded Plugin LevelSequenceEditor, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/LevelSequenceEditor/LevelSequenceEditor.uplugin
+LogPluginManager: Loaded Plugin MatineeToLevelSequence, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/MovieScene/MatineeToLevelSequence/MatineeToLevelSequence.uplugin
+LogPluginManager: Loaded Plugin NetcodeUnitTest, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/NetcodeUnitTest.uplugin
+LogPluginManager: Loaded Plugin NUTUnrealEngine4, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/NUTUnrealEngine4.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemGooglePlay, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/Android/OnlineSubsystemGooglePlay/OnlineSubsystemGooglePlay.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemIOS, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/IOS/OnlineSubsystemIOS/OnlineSubsystemIOS.uplugin
+LogPluginManager: Loaded Plugin OnlineFramework, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineFramework/OnlineFramework.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystem, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystem/OnlineSubsystem.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemAmazon, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemAmazon/OnlineSubsystemAmazon.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemFacebook, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemFacebook/OnlineSubsystemFacebook.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemNull, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemNull/OnlineSubsystemNull.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemOculus, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemOculus/OnlineSubsystemOculus.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemSteam, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemSteam/OnlineSubsystemSteam.uplugin
+LogPluginManager: Loaded Plugin OnlineSubsystemUtils, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Online/OnlineSubsystemUtils/OnlineSubsystemUtils.uplugin
+LogPluginManager: Loaded Plugin IOSTapJoy, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Advertising/IOSTapJoy/IOSTapJoy.uplugin
+LogPluginManager: Loaded Plugin AnalyticsBlueprintLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsBlueprintLibrary/AnalyticsBlueprintLibrary.uplugin
+LogPluginManager: Loaded Plugin AnalyticsMulticast, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/AnalyticsMulticast/AnalyticsMulticast.uplugin
+LogPluginManager: Loaded Plugin Apsalar, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Apsalar/Apsalar.uplugin
+LogPluginManager: Loaded Plugin FileLogging, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/FileLogging/FileLogging.uplugin
+LogPluginManager: Loaded Plugin Flurry, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Analytics/Flurry/Flurry.uplugin
+LogPluginManager: Loaded Plugin AndroidDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidDeviceProfileSelector/AndroidDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin AndroidMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AndroidMoviePlayer/AndroidMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin AppleMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/AppleMoviePlayer/AppleMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ArchVisCharacter, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ArchVisCharacter/ArchVisCharacter.uplugin
+LogPluginManager: Loaded Plugin CableComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CableComponent/CableComponent.uplugin
+LogPluginManager: Loaded Plugin CustomMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/CustomMeshComponent/CustomMeshComponent.uplugin
+LogPluginManager: Loaded Plugin ExampleDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ExampleDeviceProfileSelector/ExampleDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin GearVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GearVR/GearVR.uplugin
+LogPluginManager: Loaded Plugin GoogleVRController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRController/GoogleVRController.uplugin
+LogPluginManager: Loaded Plugin GoogleVRHMD, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/GoogleVR/GoogleVRHMD/GoogleVRHMD.uplugin
+LogPluginManager: Loaded Plugin IOSDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/IOSDeviceProfileSelector/IOSDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LeapMotion, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LeapMotion/LeapMotion.uplugin
+LogPluginManager: Loaded Plugin LinuxDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LinuxDeviceProfileSelector/LinuxDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin LiveEditorListenServer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/LiveEditorListenServer/LiveEditorListenServer.uplugin
+LogPluginManager: Loaded Plugin OculusAudio, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusAudio/OculusAudio.uplugin
+LogPluginManager: Loaded Plugin OculusInput, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusInput/OculusInput.uplugin
+LogPluginManager: Loaded Plugin OculusLibrary, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusLibrary/OculusLibrary.uplugin
+LogPluginManager: Loaded Plugin OculusRift, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/OculusRift/OculusRift.uplugin
+LogPluginManager: Loaded Plugin Oodle, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/PacketHandlers/CompressionComponents/Oodle/Oodle.uplugin
+LogPluginManager: Loaded Plugin ProceduralMeshComponent, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/ProceduralMeshComponent/ProceduralMeshComponent.uplugin
+LogPluginManager: Loaded Plugin SoundMod, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundMod/SoundMod.uplugin
+LogPluginManager: Loaded Plugin SoundVisualizations, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/SoundVisualizations/SoundVisualizations.uplugin
+LogPluginManager: Loaded Plugin SteamController, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamController/SteamController.uplugin
+LogPluginManager: Loaded Plugin SteamVR, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/Steam/SteamVR/SteamVR.uplugin
+LogPluginManager: Loaded Plugin WebBrowserWidget, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WebBrowserWidget/WebBrowserWidget.uplugin
+LogPluginManager: Loaded Plugin WindowsDeviceProfileSelector, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsDeviceProfileSelector/WindowsDeviceProfileSelector.uplugin
+LogPluginManager: Loaded Plugin WindowsMoviePlayer, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Runtime/WindowsMoviePlayer/WindowsMoviePlayer.uplugin
+LogPluginManager: Loaded Plugin ScriptPlugin, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/ScriptPlugin/ScriptPlugin.uplugin
+LogPluginManager: Loaded Plugin SlateRemote, From C:/Program Files (x86)/Epic Games/4.13/Engine/Plugins/Slate/SlateRemote/SlateRemote.uplugin
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.13-CL-3172292
+LogInit: Engine Version: 4.13.2-3172292+++UE4+Release-4.13
+LogInit: Compatible Engine Version: 4.13.0-3106830+++UE4+Release-4.13
+LogInit: Net CL: 3172292
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 5
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 6
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 12
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 4
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Oct 24 2016 14:29:06
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.13
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.13/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.12.07-18.08.21:494][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.07-18.08.21:494][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.12.07-18.08.22:013][  0]LogInit: Computer: DESKTOP-KJRFG8H
+[2016.12.07-18.08.22:013][  0]LogInit: User: MacdeAnderson
+[2016.12.07-18.08.22:013][  0]LogInit: CPU Page size=65536, Cores=2
+[2016.12.07-18.08.22:013][  0]LogInit: High frequency timer resolution =1.753829 MHz
+[2016.12.07-18.08.22:014][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
+[2016.12.07-18.08.22:014][  0]LogMemory: Platform Memory Stats for Windows
+[2016.12.07-18.08.22:014][  0]LogMemory: Process Physical Memory: 256.23 MB used, 256.23 MB peak
+[2016.12.07-18.08.22:014][  0]LogMemory: Process Virtual Memory: 259.66 MB used, 259.66 MB peak
+[2016.12.07-18.08.22:014][  0]LogMemory: Physical Memory: 3355.72 MB used, 3988.27 MB total
+[2016.12.07-18.08.22:014][  0]LogMemory: Virtual Memory: 621.24 MB used, 134217728.00 MB total
+[2016.12.07-18.08.39:767][  0]LogD3D11RHI: D3D11 adapters:
+[2016.12.07-18.08.39:829][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics' (Feature Level 11_0)
+[2016.12.07-18.08.39:829][  0]LogD3D11RHI:       32/0/1760 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2016.12.07-18.08.39:899][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.12.07-18.08.39:899][  0]LogD3D11RHI:       0/0/1994 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.12.07-18.08.39:900][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.12.07-18.08.39:909][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.12.07-18.08.39:909][  0]LogD3D11RHI:     GPU DeviceId: 0x156 (for the marketing name, search the web for "GPU Device Id")
+[2016.12.07-18.08.39:909][  0]LogWindows: EnumDisplayDevices:
+[2016.12.07-18.08.39:909][  0]LogWindows:    0. 'Intel(R) HD Graphics' (P:1 D:1)
+[2016.12.07-18.08.39:910][  0]LogWindows:    1. 'Intel(R) HD Graphics' (P:0 D:0)
+[2016.12.07-18.08.39:910][  0]LogWindows:    2. 'Intel(R) HD Graphics' (P:0 D:0)
+[2016.12.07-18.08.39:910][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2016.12.07-18.08.39:910][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics
+[2016.12.07-18.08.39:910][  0]LogD3D11RHI:   Driver Version: 10.18.10.4358 (internal:10.18.10.4358, unified:10.18.10.4358)
+[2016.12.07-18.08.39:910][  0]LogD3D11RHI:      Driver Date: 12-21-2015
+[2016.12.07-18.08.39:910][  0]LogRHI: Texture pool is 638 MB (70% of 912 MB)
+[2016.12.07-18.08.39:917][  0]LogD3D11RHI: Async texture creation enabled
+[2016.12.07-18.08.39:935][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2016.12.07-18.08.39:936][  0]LogShaderCompilers: Guid format shader working directory is 30 characters bigger than the processId version (E:/ProjetoPacMan/Intermediate/Shaders/WorkingDirectory/6864/).
+[2016.12.07-18.08.39:936][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/alaur/AppData/Local/Temp/UnrealShaderWorkingDir/BD294D014B433CFFF447A29F24FE8BCE/'.
+[2016.12.07-18.08.39:936][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.12.07-18.08.58:771][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.12.07-18.08.58:800][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.12.07-18.08.58:839][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.12.07-18.08.58:876][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.12.07-18.08.58:912][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.12.07-18.08.58:984][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.12.07-18.08.59:027][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.12.07-18.08.59:061][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.12.07-18.08.59:091][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.12.07-18.08.59:111][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.12.07-18.08.59:145][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.12.07-18.08.59:192][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.12.07-18.08.59:192][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.12.07-18.08.59:206][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.12.07-18.08.59:328][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.12.07-18.08.59:347][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.12.07-18.08.59:366][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2016.12.07-18.08.59:400][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.12.07-18.08.59:426][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.12.07-18.08.59:451][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.12.07-18.08.59:451][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.12.07-18.09.00:316][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache: Loaded boot cache 1.43s 62MB C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/ProjetoPacMan/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/ProjetoPacMan/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.12.07-18.09.01:748][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.12.07-18.09.01:848][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.12.07-18.09.01:865][  0]LogDerivedDataCache: Using Local data cache path C:/Users/alaur/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.12.07-18.09.10:849][  0]LogInit: Selected Device Profile: [Windows]
+[2016.12.07-18.09.11:052][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.12.07-18.09.11:581][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.12.07-18.09.11:581][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.12.07-18.09.11:581][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.12.07-18.09.11:988][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.12.07-18.09.14:395][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3106830, ProjectName: projetopacman, ProjectVersion: , EngineNetworkVersion: 1, GameNetworkVersion: 0, NetworkChecksum: 1135870952
+[2016.12.07-18.09.14:585][  0]LogAssetRegistry: FAssetRegistry took 0.0274 seconds to start up
+[2016.12.07-18.09.15:589][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.997684 seconds
+[2016.12.07-18.09.15:606][  0]LogUObjectArray: 29778 objects as part of root set at end of initial load.
+[2016.12.07-18.09.15:606][  0]LogUObjectAllocator: 6125456 out of 0 bytes used by permanent object pool.
+[2016.12.07-18.09.15:606][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.12.07-18.09.15:688][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.12.07-18.09.18:668][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.07-18.09.18:668][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.12.07-18.09.56:304][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2016.12.07-18.09.56:377][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.12.07-18.10.06:857][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.07-18.10.07:728][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.07-18.10.07:769][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.07-18.10.07:823][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.07-18.10.09:648][  0]LogEngine: Initializing Engine...
+[2016.12.07-18.10.09:650][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2016.12.07-18.10.10:629][  0]LogAIModule: Creating AISystem for world Untitled
+[2016.12.07-18.10.10:682][  0]LogInit: XAudio2 using 'Alto-falantes/Fone de ouvido (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.12.07-18.10.10:846][  0]LogInit: FAudioDevice initialized.
+[2016.12.07-18.10.11:066][  0]LogDerivedDataCache: Saved boot cache 0.22s 62MB C:/Users/alaur/AppData/Local/UnrealEngine/4.13/DerivedDataCache/Boot.ddc.
+[2016.12.07-18.10.11:167][  0]LogInit: Texture streaming: Enabled
+[2016.12.07-18.10.11:449][  0]LogInit: Transaction tracking system initialized
+[2016.12.07-18.10.11:808][  0]BlueprintLog: New page: Carregar Editor
+[2016.12.07-18.10.15:336][  0]LocalizationService: Informações Localization service is disabled
+[2016.12.07-18.10.20:404][  0]LogConsoleResponse:Display: 
+[2016.12.07-18.10.22:879][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2016.12.07-18.10.22:879][  0]LogCook:Display: Mobile HDR setting 1
+[2016.12.07-18.10.22:886][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/' took 0.25s
+[2016.12.07-18.10.24:620][  0]SourceControl: Informações Controle de origem desativado
+[2016.12.07-18.10.24:621][  0]Cmd: MAP LOAD FILE="E:/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.12.07-18.10.26:820][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.07-18.10.26:826][  0]MapCheck: New page: Verificação de Mapa
+[2016.12.07-18.10.26:826][  0]LightingResults: New page: Compilação de Iluminação
+[2016.12.07-18.11.26:611][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2016.12.07-18.11.27:466][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.12.07-18.11.27:511][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.12.07-18.11.27:635][  0]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 123,696ms to complete.
+[2016.12.07-18.11.27:635][  0]LogFileHelpers: Loading map 'Minimal_Default' took 63.014
+[2016.12.07-18.11.28:971][  0]LogCollectionManager: Loaded 0 collections in 0.007099 seconds
+[2016.12.07-18.11.29:302][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Saved/Collections/' took 0.06s
+[2016.12.07-18.11.29:302][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/Developers/MacdeAnderson/Collections/' took 0.01s
+[2016.12.07-18.11.29:302][  0]LogFileCache: Scanning file cache for directory 'E:/ProjetoPacMan/Content/Collections/' took 0.01s
+[2016.12.07-18.11.29:302][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000005 seconds
+[2016.12.07-18.11.29:346][  0]LogContentBrowser: Native class hierarchy populated in 0.0362 seconds. Added 2143 classes and 417 folders.
+[2016.12.07-18.11.29:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.12.07-18.11.29:446][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.12.07-18.11.29:459][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0024 seconds. Added 12 classes and 0 folders.
+[2016.12.07-18.11.29:520][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0023 seconds. Added 0 classes and 0 folders.
+[2016.12.07-18.11.32:290][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2016.12.07-18.11.32:458][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0034 seconds. Added 1 classes and 2 folders.
+[2016.12.07-18.11.33:132][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.12.07-18.11.33:361][  0]LogUObjectGlobals:Warning: Falha ao encontrar objeto “Class Nenhum.”
+[2016.12.07-18.11.33:454][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0021 seconds. Added 1 classes and 2 folders.
+[2016.12.07-18.11.33:463][  0]LogLoad: (Engine Initialization) Total time: 208.95 seconds
+[2016.12.07-18.11.33:463][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.43 seconds
+[2016.12.07-18.11.33:463][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.12.07-18.11.33:463][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.12.07-18.11.33:803][  0]LogOcInput: OculusInput pre-init called
+[2016.12.07-18.11.34:495][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.12.07-18.11.37:552][  0]LogRenderer: Reallocating scene render targets to support 812x352 (Frame:2).
+[2016.12.07-18.11.42:127][  6]LogAssetRegistry: Asset discovery search completed in 147.5698 seconds
+[2016.12.07-18.11.42:127][  6]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2016.12.07-18.11.42:127][  6]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000071 seconds (updated 0 objects)
+[2016.12.07-18.11.56:636][ 43]LogUObjectHash:Warning: Ambiguous search, could be Function /Game/Blueprints/PacManBP.PacManBP_C:Gate or Function /Game/Blueprints/PacManBP.SKEL_PacManBP_C:Gate
+[2016.12.07-18.11.56:636][ 43]LogUObjectHash:Warning: Ambiguous search, could be Function /Game/Blueprints/PacManBP.PacManBP_C:Gate or Function /Engine/Transient.REINST_PacManBP_C_27:Gate
+[2016.12.07-18.11.56:636][ 43]LogUObjectHash:Warning: Ambiguous search, could be Function /Game/Blueprints/PacManBP.PacManBP_C:Gate or Function /Engine/Transient.REINST_PacManBP_C_38:Gate
+[2016.12.07-18.11.58:017][ 43]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0050 seconds. Added 112 classes and 0 folders.
+[2016.12.07-18.12.10:962][ 43]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0025 seconds. Added 2 classes and 2 folders.
+[2016.12.07-18.15.13:223][610]LogCascade: Quitting Cascade. FXSystem=0x0000025274393CE0
+[2016.12.07-18.15.19:130][733]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.12.07-18.28.59:419][998]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.h'
+[2016.12.07-18.29.03:431][998]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.cpp'
+[2016.12.07-18.41.54:221][206]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.h'
+[2016.12.07-18.41.54:395][206]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.cpp'
+[2016.12.07-18.45.58:333][977]MapCheck: New page: Verificação de Mapa
+[2016.12.07-18.45.58:770][977]Cmd: MAP REBUILD ALLVISIBLE
+[2016.12.07-18.45.59:136][977]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.12.07-18.46.09:043][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.12.07-18.46.09:866][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, compiling. 
+[2016.12.07-18.46.09:968][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2016.12.07-18.46.10:018][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.12.07-18.46.10:168][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2016.12.07-18.46.10:266][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2016.12.07-18.46.10:368][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2016.12.07-18.46.10:564][977]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_1, compiling. 
+[2016.12.07-18.46.22:498][977]LogLevel:Display: Export Material TexCoord Scales took 0.756 seconds.
+[2016.12.07-18.46.22:707][977]TextureStreamingBuild:Display: Build Texture Streaming took 0.167 seconds.
+[2016.12.07-18.46.23:011][977]LightingResults: New page: Compilação de Iluminação - 07/12/2016 13:46:22
+[2016.12.07-18.46.58:969][977]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.12.07-18.47.00:716][977]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.12.07-18.47.04:022][977]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.12.07-18.47.09:017][977]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.12.07-18.47.09:017][977]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6864
+[2016.12.07-18.47.20:040][977]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.12.07-18.47.20:066][977]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.12.07-18.47.20:066][977]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.12.07-18.47.20:066][977]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.12.07-18.47.20:066][977]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.12.07-18.47.20:066][977]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.12.07-18.47.23:177][977]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.12.07-18.47.23:178][977]MapCheck: New page: Minimal_Default - 07/12/2016 13:47:23
+[2016.12.07-18.47.24:428][977]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 1.250,297ms to complete.
+[2016.12.07-18.47.24:451][977]LogEditorBuildUtils: Build time 1:25
+[2016.12.07-18.47.24:704][977]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.12.07-18.47.24:766][977]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Brushed_Nickel, compiling. 
+[2016.12.07-18.47.25:072][978]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2016.12.07-18.47.25:122][978]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_TableRound, compiling. 
+[2016.12.07-18.47.25:272][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2016.12.07-18.47.25:351][979]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Chair, compiling. 
+[2016.12.07-18.47.25:483][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2016.12.07-18.47.25:551][980]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Copper, compiling. 
+[2016.12.07-18.47.25:641][981]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2016.12.07-18.47.25:673][981]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_StatueGlass, compiling. 
+[2016.12.07-18.47.25:784][982]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2016.12.07-18.47.25:881][982]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Metal_Burnished_Steel, compiling. 
+[2016.12.07-18.47.26:034][983]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.12.07-18.47.26:127][983]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_1, compiling. 
+[2016.12.07-18.47.26:229][984]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.12.07-18.47.26:401][984]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer WorldGridMaterial, compiling. Is special engine material.
+[2016.12.07-18.48.25:461][986]LogSavePackage: Save=39389.31ms
+[2016.12.07-18.48.25:461][986]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Minimal_Default_Auto11DA281D942CD2F0043B810BC20EC3230.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2016.12.07-18.48.25:785][986]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap
+[2016.12.07-18.48.26:243][986]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 42.735
+[2016.12.07-18.48.26:244][986]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 42.735
+[2016.12.07-18.48.41:422][ 28]Job is a success!
+[2016.12.07-18.48.43:776][ 29]LogTexture:Display: Criando texturas: HQ_Lightmap0_1 (AutoDXT)
+[2016.12.07-18.48.43:776][ 29]LogTexture:Display: Criando texturas: SkyOcclusion0_1 (AutoDXT)
+[2016.12.07-18.48.43:776][ 29]LogTexture:Display: Criando texturas: LQ_Lightmap_0_1 (DXT1)
+[2016.12.07-18.48.43:776][ 29]LogTexture:Display: Criando texturas: SkyOcclusion0_2 (AutoDXT)
+[2016.12.07-18.48.43:777][ 29]LogTexture:Display: Criando texturas: HQ_Lightmap0_2 (AutoDXT)
+[2016.12.07-18.48.43:777][ 29]LogTexture:Display: Criando texturas: LQ_Lightmap_0_2 (DXT1)
+[2016.12.07-18.48.44:058][ 29]LogTexture:Display: Criando texturas: ShadowMapTexture2D_0 (G8)
+[2016.12.07-18.48.44:080][ 29]LogTexture:Display: Criando texturas: ShadowMapTexture2D_1 (G8)
+[2016.12.07-18.48.44:592][ 29]Lightmass on DESKTOP-KJRFG8H: 10.1 sec total, 606 ms importing, 70 ms setup, 833 ms photons, 7.82 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 15.6 sec total, 4.74 sec processing.
+[2016.12.07-18.48.44:786][ 29]LogStaticLightingSystem: Illumination: 2:21 min (1.16 sec encoding lightmaps, 301 ms encoding shadowmaps)
+[2016.12.07-18.48.44:787][ 29]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.12.07-18.48.44:787][ 29]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.12.07-18.48.46:161][ 30]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.12.07-18.48.46:161][ 30]MapCheck: New page: Minimal_Default - 07/12/2016 13:48:46
+[2016.12.07-18.48.47:138][ 30]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 977,109ms to complete.
+[2016.12.07-18.48.50:666][ 75]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.h'
+[2016.12.07-18.48.50:820][ 75]LogVSAccessor:Warning: Couldn't goto line number '0' in 'E:/ProjetoPacMan/Source/ProjetoPacMan/PacManCPP.cpp'
+[2016.12.07-18.59.10:816][832]LogSavePackage: Save=36634.82ms
+[2016.12.07-18.59.10:817][832]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Minimal_Default_Auto2B49651E74C54EA29E9DD6FB0852FEE9A.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap'
+[2016.12.07-18.59.10:837][832]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto2.umap
+[2016.12.07-18.59.11:370][832]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 39.073
+[2016.12.07-18.59.11:370][832]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 39.073
+[2016.12.07-19.00.28:846][392]MapCheck: New page: Verificação de Mapa
+[2016.12.07-19.00.28:858][392]Cmd: MAP REBUILD ALLVISIBLE
+[2016.12.07-19.00.28:859][392]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2016.12.07-19.00.28:973][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2016.12.07-19.00.28:989][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Brushed_Nickel, compiling. 
+[2016.12.07-19.00.29:004][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_TableRound, compiling. 
+[2016.12.07-19.00.29:023][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Chair, compiling. 
+[2016.12.07-19.00.29:040][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Copper, compiling. 
+[2016.12.07-19.00.29:054][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_StatueGlass, compiling. 
+[2016.12.07-19.00.29:078][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Metal_Burnished_Steel, compiling. 
+[2016.12.07-19.00.29:089][392]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy MaterialInstanceDynamic_2, compiling. 
+[2016.12.07-19.00.37:243][392]LogLevel:Display: Export Material TexCoord Scales took 0.193 seconds.
+[2016.12.07-19.00.37:262][392]TextureStreamingBuild:Display: Build Texture Streaming took 0.018 seconds.
+[2016.12.07-19.00.37:322][392]LightingResults: New page: Compilação de Iluminação - 07/12/2016 14:00:37
+[2016.12.07-19.00.37:820][392]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2016.12.07-19.00.37:824][392]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2016.12.07-19.00.37:824][392]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2016.12.07-19.00.37:827][392]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2016.12.07-19.00.37:827][392]LogSwarmInterface: [TryOpenConnection] Local Process ID is 6864
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.12.07-19.00.42:789][392]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.12.07-19.00.43:148][392]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2016.12.07-19.00.43:148][392]MapCheck: New page: Minimal_Default - 07/12/2016 14:00:43
+[2016.12.07-19.00.44:081][392]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 933,083ms to complete.
+[2016.12.07-19.00.44:104][392]LogEditorBuildUtils: Build time 0:15
+[2016.12.07-19.01.06:887][446]Job is a success!
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: SkyOcclusion1_1 (AutoDXT)
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: LQ_Lightmap_1_1 (DXT1)
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: HQ_Lightmap1_1 (AutoDXT)
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: SkyOcclusion1_2 (AutoDXT)
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: HQ_Lightmap1_2 (AutoDXT)
+[2016.12.07-19.01.09:524][447]LogTexture:Display: Criando texturas: LQ_Lightmap_1_2 (DXT1)
+[2016.12.07-19.01.09:757][447]LogTexture:Display: Criando texturas: ShadowMapTexture2D_3 (G8)
+[2016.12.07-19.01.09:757][447]LogTexture:Display: Criando texturas: ShadowMapTexture2D_2 (G8)
+[2016.12.07-19.01.10:010][447]Lightmass on DESKTOP-KJRFG8H: 18.3 sec total, 4.40 sec importing, 197 ms setup, 556 ms photons, 12.8 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 25.7 sec total, 9.62 sec processing.
+[2016.12.07-19.01.10:022][447]LogStaticLightingSystem: Illumination: 32.3 sec (1.88 sec encoding lightmaps, 235 ms encoding shadowmaps)
+[2016.12.07-19.01.10:022][447]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.12.07-19.01.10:022][447]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.12.07-19.01.11:107][448]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.12.07-19.01.11:108][448]MapCheck: New page: Minimal_Default - 07/12/2016 14:01:11
+[2016.12.07-19.01.11:311][448]MapCheck: Informações Map check complete: 0 Error(s), 0 Warning(s), took 203,532ms to complete.
+[2016.12.07-19.09.54:853][883]LogSavePackage: Save=37141.59ms
+[2016.12.07-19.09.54:855][883]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Minimal_Default_Auto3A0B30B624FE4F61F99E8D9965A2989FB.tmp' to 'E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap'
+[2016.12.07-19.09.55:140][883]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto3.umap
+[2016.12.07-19.09.55:680][883]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 39.991
+[2016.12.07-19.09.55:680][883]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 39.991
+[2016.12.07-19.11.43:488][430]LogRenderer: Reallocating scene render targets to support 812x544 (Frame:1139).
+[2016.12.07-19.12.38:195][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PacManBP-CPP" FILE="E:/ProjetoPacMan/Content/Blueprints/PacManBP-CPP.uasset" SILENT=true
+[2016.12.07-19.12.39:059][120]LogSavePackage: Save=819.17ms
+[2016.12.07-19.12.39:059][120]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/PacManBP-CPPF36370C5473BFAAE5E7B10A3E1D1016C.tmp' to 'E:/ProjetoPacMan/Content/Blueprints/PacManBP-CPP.uasset'
+[2016.12.07-19.12.39:144][120]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/Blueprints/PacManBP-CPP.uasset
+[2016.12.07-19.12.43:734][120]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Maps/Minimal_Default" FILE="E:/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.12.07-19.14.10:406][120]LogSavePackage: Save=85428.26ms
+[2016.12.07-19.14.10:407][120]LogSavePackage: Moving 'E:/ProjetoPacMan/Saved/Minimal_Default31CE886E4506277D888762BFC9601F8F.tmp' to 'E:/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap'
+[2016.12.07-19.14.10:466][120]LogSavePackage:Display: Finished SavePackage E:/ProjetoPacMan/Content/StarterContent/Maps/Minimal_Default.umap
+[2016.12.07-19.14.11:221][120]LogFileHelpers: Saving map 'Minimal_Default' took 92.055
+[2016.12.07-19.15.04:092][179]LogAssetTools:Warning: /Game/Blueprints/BlinkyGhostBP não existe no disco.
+[2016.12.07-19.15.07:722][179]LogAssetTools:Warning: /Game/Levels/i não existe no disco.
+[2016.12.07-19.15.07:722][179]LogAssetTools:Warning: /Game/Levels/i1 não existe no disco.
+[2016.12.07-19.15.07:722][179]LogAssetTools:Warning: /Game/Levels/L não existe no disco.
+[2016.12.07-19.15.08:488][179]LogAssetTools:Warning: /Game/Levels/T não existe no disco.
+[2016.12.07-19.15.08:494][179]LogAssetTools:Warning: /Game/Levels/t1 não existe no disco.
+[2016.12.07-19.16.25:951][179]LogAssetTools:Warning: /Game/Architecture/SM_Floor_400x400 não existe no disco.
+[2016.12.07-19.16.42:131][179]AssetTools: New page: Copiar Erros
+[2016.12.07-19.16.42:216][179]AssetTools:Error: Erro /Game/Blueprints/BlinkyGhostBP não existe no disco.
+/Game/Levels/i não existe no disco.
+/Game/Levels/i1 não existe no disco.
+/Game/Levels/L não existe no disco.
+/Game/Levels/T não existe no disco.
+/Game/Levels/t1 não existe no disco.
+/Game/Architecture/SM_Floor_400x400 não existe no disco.
+
+[2016.12.07-19.16.42:226][179]AssetTools: New page: Cópia realizada
+[2016.12.07-19.16.42:701][179]AssetTools: Informações
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_MacroVariation
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Brushed_Nickel
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Aluminum_D
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Gold_N
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Burnished_Steel
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Copper_D
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Copper
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Chair_M
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Chair_N
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Chair
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Statue_M
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Textures/T_Statue_N
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_StatueGlass
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Materials/M_Basic_Floor
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Architecture/Floor_400x400
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Background_Cue
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Wind05
+[2016.12.07-19.16.42:701][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Birds01
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Wind06
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Props/SM_Chair
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Statue
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Props/SM_Statue
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Textures/T_TableRound_M
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Textures/T_TableRound_N
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_TableRound
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Props/SM_TableRound
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/StarterContent/Maps/Minimal_Default
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_6_Morte__Skeleton
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_6_Morte__Anim
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_7_Skeleton
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_7
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_7_PhysicsAsset
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Teste_7_Anim
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Blueprints/PacManBP
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Blueprints/BlinkyIGhostBP
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Blueprints/IGhost
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Materials/BlinkyMat
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Blueprints/Super_Tablet_DM_BP
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Materials/CuHelton
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Blueprints/Tablet_DM_BP
+[2016.12.07-19.16.42:702][179]AssetTools: Informações /Game/Meshs/Tablet_DM
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Materials/TabletMat
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Meshs/Tablet
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Materials/PacManMat
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/HUD/ScoreWidgetBP
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Fonts/Pixeled
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Meshs/Teste_6_Morte_
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Meshs/Teste_6_Morte__PhysicsAsset
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Particles/P_Steam_Lit_Mod
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_smoke_subUV
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/StarterContent/Textures/T_Smoke_SubUV
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/StarterContent/Textures/T_Smoke_Tiled_D
+[2016.12.07-19.16.42:703][179]AssetTools: Informações /Game/Particles/Snow
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Materials/SnowMat
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Sounds/pacman_beginning_S
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Sounds/pacman_chomp_S
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Sounds/pacman_death
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Blueprints/PacManBP-CPP
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/i
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Meshs/i
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/i1
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Meshs/i1
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/L2
+[2016.12.07-19.16.42:713][179]AssetTools: Informações /Game/Meshs/L2
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/T
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Meshs/T
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/t1
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Meshs/t1
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/wertinho
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Meshs/wertinho
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/wertão
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Meshs/wertão
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Originalpacmaze_Mat
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Materials/MazeGuideMaterial
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Textures/MapTexture
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Animations/Pacman_Anim
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/TPBP
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/TPBP_2
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/PinkyGhostBP
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Materials/PinkyMat
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/GameModePM
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/InkyGhostBP
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Materials/InkyMat
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/RedGhostBP
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/Blueprints/ModalGhost
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Cube
+[2016.12.07-19.16.42:714][179]AssetTools: Informações /Game/StarterContent/Materials/M_Basic_Wall
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Levels/FristMaze
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Materials/mirror
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Materials/BlackMirrorTexture
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Materials/WallMat
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/StarterContent/Materials/M_Brick_Hewn_Stone
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Hewn_Stone_D
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Hewn_Stone_M
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Hewn_Stone_N
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/StarterContent/Textures/T_Detail_Rocky_N
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Levels/QQUADRADO
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Meshs/QQUADRADO
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Levels/QUADRADO1fbx
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Meshs/QUADRADO1fbx
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Meshs/Maze
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Levels/Start
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Menu/menu
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Menu/MainMenuHud
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/MenuWidget
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/opçõesGameInstance
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/Loading
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/Menu/menu2
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/options/Options_Button_1280x720_Hovered
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/options/Options_Button_1920x1080_Hovered
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/options/Options_Button_640x480_Hovered_-_Copia
+[2016.12.07-19.16.42:715][179]AssetTools: Informações /Game/menu/options/Options_Button_BackToMenu_Hovered
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/options/ResolutionLogo
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/Sem_título
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/Som/ButtonPush_1
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/Som/ButtonPush_2
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/botãos/asdasdasdasd
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/menu/botãos/asdasdsad
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Menu/sadsadasd
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Audio/Collapse01
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Menu/The_Boy_Who_Shattered_Time__MitiS_Remix___online-audio-converter_com_
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Levels/Maze
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/WallSpawnWhiteMat
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/SnowMaterial_Inst
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/SnowMaterial
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Basalt_D
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Basalt_N
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Slate_D
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Particles/P_Steam_Lit
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/M_Tech_Hex_Tile
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Hex_Tile_M
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Hex_Tile_N
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/NewMaterial2
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/MirrorP2
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/BlackMirrorTexture_Mat
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/NeonMaterial
+[2016.12.07-19.16.42:716][179]AssetTools: Informações /Game/Materials/SnowMaterial_Inst2
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/Materials/GhostDeathMat
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/Meshs/L
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/Meshs/Snow
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/Meshs/Gorro_de_Natal_Separado_
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Pillar_50x500
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/SM_AssetPlatform
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Materials/M_AssetPlatform
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_400x200
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_400x300
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_400x400
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_500x500
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_Door_400x300
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_Door_400x400
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_Window_400x300
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Architecture/Wall_Window_400x400
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Collapse02
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Collapse_Cue
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Explosion01
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Explosion02
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Explosion_Cue
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Fire01
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Fire01_Cue
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Fire_Sparks01
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Fire_Sparks01_Cue
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Light01
+[2016.12.07-19.16.42:717][179]AssetTools: Informações /Game/StarterContent/Audio/Light01_Cue
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Light02
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Light02_Cue
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Smoke01
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Smoke01_Cue
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Music01
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Starter_Music_Cue
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Steam01
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Audio/Steam01_Cue
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_CeilingLight
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Props/SM_Lamp_Ceiling
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Lamp
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Textures/T_Lamp_M
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Textures/T_Lamp_N
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_Effect_Explosion
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/P_Explosion
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Burst
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Textures/T_Burst_M
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_explosion_subUV
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Textures/T_Explosion_SubUV
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/m_flare_01
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_radial_ramp
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_Effect_Fire
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/P_Fire
+[2016.12.07-19.16.42:718][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Fire_SubUV
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Textures/T_Fire_SubUV
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Textures/T_Fire_Tiled_D
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Heat_Distortion
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Textures/T_Water_N
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Radial_Gradient
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_Effect_Smoke
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Particles/P_Smoke
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_Effect_Sparks
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Particles/P_Sparks
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Spark
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Textures/T_Spark_Core
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_Effect_Steam
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Blueprint_WallSconce
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Props/SM_Lamp_Wall
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/BP_LightStudio
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/FogBrightnessLUT
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/SunlightColorLUT
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/M_LightStage_Arrows
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/Skybox
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Blueprints/Assets/SM_Arrows
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Maps/Advanced_Lighting
+[2016.12.07-19.16.42:719][179]AssetTools: Informações /Game/StarterContent/Maps/StarterMap
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_Beveled_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_Beveled_M
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_Beveled_N
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_Brick_Clay_New
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_New_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_New_M
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_New_N
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_Brick_Clay_Old
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_Old_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Clay_Old_N
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Perlin_Noise_M
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_Brick_Cut_Stone
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Cut_Stone_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Brick_Cut_Stone_N
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_Ceramic_Tile_Checker
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ceramic_Tile_M
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ceramic_Tile_N
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Marble_Polished_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Materials/M_CobbleStone_Pebble
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Pebble_D
+[2016.12.07-19.16.42:720][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Pebble_M
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Pebble_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_CobbleStone_Rough
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Rough_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Rough_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Gradinet_01
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Smooth_Granite_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_CobbleStone_Smooth
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Smooth_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Smooth_M
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_CobbleStone_Smooth_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_Concrete_Grime
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Grime_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Rust_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_Concrete_Panels
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Panels_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Panels_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_Concrete_Poured
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Poured_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Poured_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_Concrete_Tiles
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Tiles_D
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Tiles_M
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Tiles_N
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Textures/T_Concrete_Tiles_Variation_M
+[2016.12.07-19.16.42:721][179]AssetTools: Informações /Game/StarterContent/Materials/M_Ground_Grass
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ground_Grass_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ground_Grass_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Ground_Gravel
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ground_Gravel_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ground_Gravel_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Ground_Moss
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_ground_Moss_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Ground_Moss_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Chrome
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Gold
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Gold_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Rust
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Rust_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Metal_Steel
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Steel_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Metal_Steel_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Rock_Basalt
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Rock_Marble_Polished
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Rock_Sandstone
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Sandstone_D
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Sandstone_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Rock_Slate
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Textures/T_Rock_Slate_N
+[2016.12.07-19.16.42:722][179]AssetTools: Informações /Game/StarterContent/Materials/M_Tech_Checker_Dot
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Checker_Noise_M
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Single_Tile_N
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Dot_M
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Dot_N
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Tech_Hex_Tile
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Tech_Hex_Tile_Pulse
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Tech_Panel
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Panel_M
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Tech_Panel_N
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Water_Lake
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Water_Ocean
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Water_M
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Polished
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Floor_Walnut_D
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Floor_Walnut_M
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Floor_Walnut_N
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Wood_Floor_Walnut_Worn
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Materials/M_Wood_Oak
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Oak_D
+[2016.12.07-19.16.42:723][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Oak_N
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Materials/M_Wood_Pine
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Pine_D
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Pine_N
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Materials/M_Wood_Walnut
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Walnut_D
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Wood_Walnut_N
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Particles/P_Ambient_Dust
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Particles/Materials/M_Dust_Particle
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Dust_Particle_D
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/MaterialSphere
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_CornerFrame
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Frame
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Frame_M
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Textures/T_Frame_N
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_DoorFrame
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_GlassWindow
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Materials/M_Glass
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_PillarFrame
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_PillarFrame300
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Props/SM_WindowFrame
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_QuadPyramid
+[2016.12.07-19.16.42:724][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Sphere
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Materials/M_ColorGrid_LowSpec
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Bush
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Bush
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Bush_D
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Bush_N
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Couch
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Door
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Door
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Door_M
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Door_N
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_MatPreviewMesh_02
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_MaterialSphere
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_MaterialSphere_Plain
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Rock
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Rock
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_RockMesh_M
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_RockMesh_N
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Shelf
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/Materials/M_Shelf
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Shelf_M
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Textures/T_Shelf_N
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Props/SM_Stairs
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Cone
+[2016.12.07-19.16.42:725][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Cylinder
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_NarrowCapsule
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Pipe
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Pipe_180
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Pipe_90
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Plane
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Torus
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Trim
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Trim_90_In
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Trim_90_Out
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_TriPyramid
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Tube
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Wedge_A
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_Wedge_B
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/StarterContent/Shapes/Shape_WideCapsule
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/pacman_newon_lights_wallpaper_by_commersrus-d7a9tiy
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/botãos/1475258860143955
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/botãos/1475259048381009
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/botãos/1475259181635944
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_Options_Hovered
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_Options_Pressed
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_Options_Unpressed
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_QuitGame_Hovered
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_QuitGame_Pressed
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_QuitGame_Unpressed
+[2016.12.07-19.16.42:726][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_StartGame_Hovered
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_StartGame_Pressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/MainMenu_Button_StartGame_Unpressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1280x720_Pressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1280x720_Unpressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1280x720_Unpressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1920x1080_Hovered_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1920x1080_Pressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1920x1080_Unpressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_1920x1080_Unpressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_640x480_Pressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_640x480_Pressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_640x480_Unpressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_BackToMenu_Hovered_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_BackToMenu_Pressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_BackToMenu_Pressed_-_Copia
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_BackToMenu_Unpressed
+[2016.12.07-19.16.42:727][179]AssetTools: Informações /Game/Menu/options/Options_Button_BackToMenu_Unpressed_-_Copia
+[2016.12.07-19.17.35:108][338]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.12.07-19.17.39:573][339]Cmd: QUIT_EDITOR
+[2016.12.07-19.17.42:111][339]LogExit: Preparing to exit.
+[2016.12.07-19.17.55:318][339]LogExit: Editor shut down
+[2016.12.07-19.17.55:367][339]LogExit: Transaction tracking system shut down
+[2016.12.07-19.18.04:638][339]LogObj: Freed 0b from 0 cluster array pools.
+[2016.12.07-19.18.04:640][339]LogExit: Object subsystem successfully closed.
+[2016.12.07-19.18.05:596][339]LogD3D11RHI: Shutdown
+[2016.12.07-19.18.05:596][339]LogD3D11RHI: CleanupD3DDevice
+[2016.12.07-19.18.06:355][339]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.12.07-19.18.08:997][339]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (239)
+[2016.12.07-19.18.09:040][339]LogModuleManager: Shutting down and abandoning module DistCurveEditor (238)
+[2016.12.07-19.18.09:040][339]LogModuleManager: Shutting down and abandoning module Cascade (237)
+[2016.12.07-19.18.09:040][339]LogModuleManager: Shutting down and abandoning module BlueprintGraph (236)
+[2016.12.07-19.18.09:040][339]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (235)
+[2016.12.07-19.18.09:207][339]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (234)
+[2016.12.07-19.18.09:232][339]LogModuleManager: Shutting down and abandoning module CrashTracker (233)
+[2016.12.07-19.18.09:261][339]LogModuleManager: Shutting down and abandoning module SceneOutliner (232)
+[2016.12.07-19.18.09:261][339]LogModuleManager: Shutting down and abandoning module WidgetCarousel (231)
+[2016.12.07-19.18.09:261][339]LogModuleManager: Shutting down and abandoning module AddContentDialog (230)
+[2016.12.07-19.18.09:383][339]LogDirectoryWatcher: A directory notification for 'C:/Program Files (x86)/Epic Games/4.13/FeaturePacks/' was aborted.
+[2016.12.07-19.18.09:738][339]LogModuleManager: Shutting down and abandoning module GameplayTags (229)
+[2016.12.07-19.18.09:738][339]LogModuleManager: Shutting down and abandoning module EditorWidgets (228)
+[2016.12.07-19.18.09:738][339]LogModuleManager: Shutting down and abandoning module CollectionManager (227)
+[2016.12.07-19.18.09:755][339]LogDirectoryWatcher: A directory notification for 'E:/ProjetoPacMan/Content/Collections/' was aborted.
+[2016.12.07-19.18.09:756][339]LogDirectoryWatcher: A directory notification for 'E:/ProjetoPacMan/Content/Developers/MacdeAnderson/Collections/' was aborted.
+[2016.12.07-19.18.09:759][339]LogDirectoryWatcher: A directory notification for 'E:/ProjetoPacMan/Saved/Collections/' was aborted.
+[2016.12.07-19.18.09:759][339]LogModuleManager: Shutting down and abandoning module StatsViewer (226)
+[2016.12.07-19.18.09:780][339]LogModuleManager: Shutting down and abandoning module FoliageEdit (225)
+[2016.12.07-19.18.09:790][339]LogModuleManager: Shutting down and abandoning module LandscapeEditor (224)
+[2016.12.07-19.18.09:829][339]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (223)
+[2016.12.07-19.18.09:829][339]LogModuleManager: Shutting down and abandoning module ActorPickerMode (222)
+[2016.12.07-19.18.09:829][339]LogModuleManager: Shutting down and abandoning module GeometryMode (221)
+[2016.12.07-19.18.09:829][339]LogModuleManager: Shutting down and abandoning module TextureAlignMode (220)
+[2016.12.07-19.18.09:829][339]LogModuleManager: Shutting down and abandoning module BspMode (219)
+[2016.12.07-19.18.09:837][339]LogModuleManager: Shutting down and abandoning module HardwareSurvey (218)
+[2016.12.07-19.18.09:850][339]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (217)
+[2016.12.07-19.18.09:850][339]LogModuleManager: Shutting down and abandoning module SequenceRecorder (216)
+[2016.12.07-19.18.09:876][339]LogModuleManager: Shutting down and abandoning module AutomationWorker (215)
+[2016.12.07-19.18.09:890][339]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (214)
+[2016.12.07-19.18.09:899][339]LogModuleManager: Shutting down and abandoning module PlacementMode (213)
+[2016.12.07-19.18.09:915][339]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (212)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (211)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (210)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (209)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (208)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module Media (207)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (206)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (205)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module CharacterAI (204)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module SmartSnapping (203)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module SessionServices (202)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module ViewportSnapping (201)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module ViewportInteraction (200)
+[2016.12.07-19.18.09:940][339]LogModuleManager: Shutting down and abandoning module LogVisualizer (199)
+[2016.12.07-19.18.09:965][339]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (198)
+[2016.12.07-19.18.09:979][339]LogModuleManager: Shutting down and abandoning module IntroTutorials (197)
+[2016.12.07-19.18.09:989][339]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (196)
+[2016.12.07-19.18.09:989][339]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (195)
+[2016.12.07-19.18.09:996][339]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (194)
+[2016.12.07-19.18.09:996][339]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (193)
+[2016.12.07-19.18.10:216][339]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (192)
+[2016.12.07-19.18.10:216][339]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (191)
+[2016.12.07-19.18.10:230][339]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (190)
+[2016.12.07-19.18.10:230][339]LogModuleManager: Shutting down and abandoning module NiagaraEditor (189)
+[2016.12.07-19.18.10:294][339]LogModuleManager: Shutting down and abandoning module MergeActors (188)
+[2016.12.07-19.18.10:300][339]LogModuleManager: Shutting down and abandoning module SizeMap (187)
+[2016.12.07-19.18.10:315][339]LogModuleManager: Shutting down and abandoning module TreeMap (186)
+[2016.12.07-19.18.10:333][339]LogModuleManager: Shutting down and abandoning module ReferenceViewer (185)
+[2016.12.07-19.18.10:333][339]LogModuleManager: Shutting down and abandoning module LocalizationService (184)
+[2016.12.07-19.18.10:344][339]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (183)
+[2016.12.07-19.18.10:387][339]LogModuleManager: Shutting down and abandoning module HardwareTargeting (182)
+[2016.12.07-19.18.10:393][339]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (181)
+[2016.12.07-19.18.10:414][339]LogModuleManager: Shutting down and abandoning module UndoHistory (180)
+[2016.12.07-19.18.10:423][339]LogModuleManager: Shutting down and abandoning module UserFeedback (179)
+[2016.12.07-19.18.10:423][339]LogModuleManager: Shutting down and abandoning module XmlParser (178)
+[2016.12.07-19.18.10:426][339]LogModuleManager: Shutting down and abandoning module Blutility (177)
+[2016.12.07-19.18.10:445][339]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (176)
+[2016.12.07-19.18.10:450][339]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (175)
+[2016.12.07-19.18.10:450][339]LogModuleManager: Shutting down and abandoning module InputBindingEditor (174)
+[2016.12.07-19.18.10:479][339]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (173)
+[2016.12.07-19.18.10:479][339]LogModuleManager: Shutting down and abandoning module SettingsEditor (172)
+[2016.12.07-19.18.10:495][339]LogModuleManager: Shutting down and abandoning module ProjectLauncher (171)
+[2016.12.07-19.18.10:528][339]LogModuleManager: Shutting down and abandoning module SessionFrontend (170)
+[2016.12.07-19.18.10:541][339]LogModuleManager: Shutting down and abandoning module ProfilerClient (169)
+[2016.12.07-19.18.10:563][339]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (168)
+[2016.12.07-19.18.10:573][339]LogModuleManager: Shutting down and abandoning module DeviceManager (167)
+[2016.12.07-19.18.10:628][339]LogModuleManager: Shutting down and abandoning module AutomationController (166)
+[2016.12.07-19.18.10:643][339]LogModuleManager: Shutting down and abandoning module AutomationWindow (165)
+[2016.12.07-19.18.10:661][339]LogModuleManager: Shutting down and abandoning module Layers (164)
+[2016.12.07-19.18.10:738][339]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (163)
+[2016.12.07-19.18.10:738][339]LogModuleManager: Shutting down and abandoning module DetailCustomizations (162)
+[2016.12.07-19.18.10:778][339]LogModuleManager: Shutting down and abandoning module PackagesDialog (161)
+[2016.12.07-19.18.10:778][339]LogModuleManager: Shutting down and abandoning module AnimGraph (160)
+[2016.12.07-19.18.10:778][339]LogModuleManager: Shutting down and abandoning module Persona (159)
+[2016.12.07-19.18.10:862][339]LogModuleManager: Shutting down and abandoning module Kismet (158)
+[2016.12.07-19.18.10:988][339]LogModuleManager: Shutting down and abandoning module GraphEditor (157)
+[2016.12.07-19.18.10:988][339]LogModuleManager: Shutting down and abandoning module ClassViewer (156)
+[2016.12.07-19.18.11:017][339]LogModuleManager: Shutting down and abandoning module Toolbox (155)
+[2016.12.07-19.18.11:033][339]LogModuleManager: Shutting down and abandoning module ModuleUI (154)
+[2016.12.07-19.18.11:044][339]LogModuleManager: Shutting down and abandoning module MovieSceneTools (153)
+[2016.12.07-19.18.11:101][339]LogModuleManager: Shutting down and abandoning module OutputLog (152)
+[2016.12.07-19.18.11:101][339]LogModuleManager: Shutting down and abandoning module GammaUI (151)
+[2016.12.07-19.18.11:110][339]LogModuleManager: Shutting down and abandoning module Documentation (150)
+[2016.12.07-19.18.11:124][339]LogModuleManager: Shutting down and abandoning module Niagara (149)
+[2016.12.07-19.18.11:133][339]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (148)
+[2016.12.07-19.18.11:134][339]LogModuleManager: Shutting down and abandoning module AnalyticsET (147)
+[2016.12.07-19.18.11:134][339]LogModuleManager: Shutting down and abandoning module PortalServices (146)
+[2016.12.07-19.18.11:134][339]LogModuleManager: Shutting down and abandoning module PortalRpc (145)
+[2016.12.07-19.18.11:134][339]LogModuleManager: Shutting down and abandoning module MessagingRpc (144)
+[2016.12.07-19.18.11:134][339]LogModuleManager: Shutting down and abandoning module GameplayDebugger (143)
+[2016.12.07-19.18.11:159][339]LogModuleManager: Shutting down and abandoning module AITestSuite (142)
+[2016.12.07-19.18.11:184][339]LogModuleManager: Shutting down and abandoning module AIModule (141)
+[2016.12.07-19.18.11:184][339]LogModuleManager: Shutting down and abandoning module ProfilerService (140)
+[2016.12.07-19.18.11:264][339]LogModuleManager: Shutting down and abandoning module TaskGraph (139)
+[2016.12.07-19.18.11:293][339]LogModuleManager: Shutting down and abandoning module SlateRemote (138)
+[2016.12.07-19.18.11:293][339]LogModuleManager: Shutting down and abandoning module SteamVRController (137)
+[2016.12.07-19.18.11:293][339]LogModuleManager: Shutting down and abandoning module SteamVR (136)
+[2016.12.07-19.18.11:293][339]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (135)
+[2016.12.07-19.18.11:299][339]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (134)
+[2016.12.07-19.18.11:299][339]LogModuleManager: Shutting down and abandoning module OculusLibrary (133)
+[2016.12.07-19.18.11:318][339]LogModuleManager: Shutting down and abandoning module OculusInput (132)
+[2016.12.07-19.18.11:318][339]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (131)
+[2016.12.07-19.18.11:318][339]LogModuleManager: Shutting down and abandoning module CableComponent (130)
+[2016.12.07-19.18.11:318][339]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (129)
+[2016.12.07-19.18.11:318][339]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (127)
+[2016.12.07-19.18.11:349][339]LogModuleManager: Shutting down and abandoning module HTML5Networking (126)
+[2016.12.07-19.18.11:349][339]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (125)
+[2016.12.07-19.18.11:349][339]LogModuleManager: Shutting down and abandoning module GeometryCache (124)
+[2016.12.07-19.18.11:349][339]LogModuleManager: Shutting down and abandoning module AlembicLibrary (123)
+[2016.12.07-19.18.11:349][339]LogModuleManager: Shutting down and abandoning module AlembicImporter (122)
+[2016.12.07-19.18.11:362][339]LogModuleManager: Shutting down and abandoning module SuperSearch (121)
+[2016.12.07-19.18.11:362][339]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (120)
+[2016.12.07-19.18.11:362][339]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (119)
+[2016.12.07-19.18.11:362][339]LogModuleManager: Shutting down and abandoning module PluginBrowser (118)
+[2016.12.07-19.18.11:384][339]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (117)
+[2016.12.07-19.18.11:401][339]LogModuleManager: Shutting down and abandoning module EpicSurvey (116)
+[2016.12.07-19.18.11:433][339]LogModuleManager: Shutting down and abandoning module DesktopPlatform (115)
+[2016.12.07-19.18.11:447][339]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (114)
+[2016.12.07-19.18.11:465][339]LogModuleManager: Shutting down and abandoning module UObjectPlugin (113)
+[2016.12.07-19.18.11:465][339]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (112)
+[2016.12.07-19.18.11:475][339]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (111)
+[2016.12.07-19.18.11:497][339]LogModuleManager: Shutting down and abandoning module SourceControl (110)
+[2016.12.07-19.18.11:512][339]LogModuleManager: Shutting down and abandoning module GitSourceControl (109)
+[2016.12.07-19.18.11:513][339]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (108)
+[2016.12.07-19.18.11:513][339]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (107)
+[2016.12.07-19.18.11:528][339]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (106)
+[2016.12.07-19.18.11:528][339]LogModuleManager: Shutting down and abandoning module MeshPaint (105)
+[2016.12.07-19.18.11:528][339]LogModuleManager: Shutting down and abandoning module FbxAutomationBuilderModule (104)
+[2016.12.07-19.18.11:544][339]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (103)
+[2016.12.07-19.18.11:563][339]LogModuleManager: Shutting down and abandoning module HotReload (102)
+[2016.12.07-19.18.11:579][339]LogDirectoryWatcher: A directory notification for 'E:/ProjetoPacMan/Binaries/Win64' was aborted.
+[2016.12.07-19.18.11:644][339]LogModuleManager: Shutting down and abandoning module MainFrame (101)
+[2016.12.07-19.18.11:644][339]LogModuleManager: Shutting down and abandoning module LevelEditor (100)
+[2016.12.07-19.18.11:662][339]LogModuleManager: Shutting down and abandoning module ContentBrowser (99)
+[2016.12.07-19.18.11:665][339]LogModuleManager: Shutting down and abandoning module Paper2DEditor (98)
+[2016.12.07-19.18.11:708][339]LogModuleManager: Shutting down and abandoning module ProjetoPacMan (97)
+[2016.12.07-19.18.11:708][339]LogModuleManager: Shutting down and abandoning module UdpMessaging (96)
+[2016.12.07-19.18.11:810][339]LogModuleManager: Shutting down and abandoning module TcpMessaging (95)
+[2016.12.07-19.18.11:931][339]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (94)
+[2016.12.07-19.18.11:931][339]LogModuleManager: Shutting down and abandoning module Paper2D (93)
+[2016.12.07-19.18.11:944][339]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (92)
+[2016.12.07-19.18.11:959][339]LogModuleManager: Shutting down and abandoning module WmfMedia (91)
+[2016.12.07-19.18.11:999][339]LogModuleManager: Shutting down and abandoning module MediaAssets (90)
+[2016.12.07-19.18.11:999][339]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (89)
+[2016.12.07-19.18.12:010][339]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (88)
+[2016.12.07-19.18.12:016][339]LogModuleManager: Shutting down and abandoning module VREditor (87)
+[2016.12.07-19.18.12:016][339]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (86)
+[2016.12.07-19.18.12:016][339]LogModuleManager: Shutting down and abandoning module PropertyEditor (85)
+[2016.12.07-19.18.12:016][339]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (84)
+[2016.12.07-19.18.12:055][339]LogModuleManager: Shutting down and abandoning module FunctionalTesting (83)
+[2016.12.07-19.18.12:055][339]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (82)
+[2016.12.07-19.18.12:067][339]LogModuleManager: Shutting down and abandoning module Sequencer (81)
+[2016.12.07-19.18.12:130][339]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (80)
+[2016.12.07-19.18.12:130][339]LogModuleManager: Shutting down and abandoning module MessageLog (79)
+[2016.12.07-19.18.12:130][339]LogModuleManager: Shutting down and abandoning module AssetTools (78)
+[2016.12.07-19.18.12:142][339]LogModuleManager: Shutting down and abandoning module UMGEditor (77)
+[2016.12.07-19.18.12:181][339]LogModuleManager: Shutting down and abandoning module UMG (76)
+[2016.12.07-19.18.12:213][339]LogModuleManager: Shutting down and abandoning module SlateReflector (75)
+[2016.12.07-19.18.12:251][339]LogModuleManager: Shutting down and abandoning module Slate (74)
+[2016.12.07-19.18.12:251][339]LogModuleManager: Shutting down and abandoning module EditorStyle (73)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (72)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (71)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module XAudio2 (70)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module Networking (68)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module Core (67)
+[2016.12.07-19.18.12:292][339]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (66)
+[2016.12.07-19.18.12:292][339]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2016.12.07-19.18.12:293][339]LogDirectoryWatcher: A directory notification for 'E:/ProjetoPacMan/Content/' was aborted.
+[2016.12.07-19.18.12:294][339]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2016.12.07-19.18.12:315][339]LogModuleManager: Shutting down and abandoning module AssetRegistry (65)
+[2016.12.07-19.19.46:726][339]LogModuleManager: Shutting down and abandoning module KismetCompiler (64)
+[2016.12.07-19.19.46:726][339]LogModuleManager: Shutting down and abandoning module PhysXFormats (63)
+[2016.12.07-19.19.46:726][339]LogModuleManager: Shutting down and abandoning module MeshUtilities (62)
+[2016.12.07-19.19.46:739][339]LogModuleManager: Shutting down and abandoning module DerivedDataCache (61)
+[2016.12.07-19.19.46:821][339]LogDerivedDataCache: Shutdown
+[2016.12.07-19.19.46:821][339]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (60)
+[2016.12.07-19.19.46:840][339]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (59)
+[2016.12.07-19.19.46:873][339]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (58)
+[2016.12.07-19.19.46:888][339]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (57)
+[2016.12.07-19.19.46:919][339]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (56)
+[2016.12.07-19.19.46:919][339]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (55)
+[2016.12.07-19.19.46:937][339]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (54)
+[2016.12.07-19.19.46:937][339]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (53)
+[2016.12.07-19.19.46:958][339]LogModuleManager: Shutting down and abandoning module ImageWrapper (52)
+[2016.12.07-19.19.46:958][339]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (51)
+[2016.12.07-19.19.46:958][339]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (50)
+[2016.12.07-19.19.46:958][339]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (49)
+[2016.12.07-19.19.46:964][339]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (48)
+[2016.12.07-19.19.46:965][339]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (47)
+[2016.12.07-19.19.46:991][339]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (46)
+[2016.12.07-19.19.47:002][339]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (45)
+[2016.12.07-19.19.47:036][339]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (44)
+[2016.12.07-19.19.47:056][339]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (43)
+[2016.12.07-19.19.47:076][339]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (42)
+[2016.12.07-19.19.47:086][339]LogModuleManager: Shutting down and abandoning module Messaging (41)
+[2016.12.07-19.19.47:090][339]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (40)
+[2016.12.07-19.19.47:090][339]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (39)
+[2016.12.07-19.19.47:091][339]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (38)
+[2016.12.07-19.19.47:091][339]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (37)
+[2016.12.07-19.19.47:091][339]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (36)
+[2016.12.07-19.19.47:091][339]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (35)
+[2016.12.07-19.19.47:098][339]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (34)
+[2016.12.07-19.19.47:098][339]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (33)
+[2016.12.07-19.19.47:098][339]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (32)
+[2016.12.07-19.19.47:098][339]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (31)
+[2016.12.07-19.19.47:098][339]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (30)
+[2016.12.07-19.19.47:107][339]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (29)
+[2016.12.07-19.19.47:118][339]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (28)
+[2016.12.07-19.19.47:131][339]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (27)
+[2016.12.07-19.19.47:154][339]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (26)
+[2016.12.07-19.19.47:155][339]LogModuleManager: Shutting down and abandoning module TargetPlatform (25)
+[2016.12.07-19.19.47:165][339]LogModuleManager: Shutting down and abandoning module InputCore (24)
+[2016.12.07-19.19.47:166][339]LogModuleManager: Shutting down and abandoning module Settings (23)
+[2016.12.07-19.19.47:166][339]LogModuleManager: Shutting down and abandoning module OculusRift (22)
+[2016.12.07-19.19.47:188][339]LogModuleManager: Shutting down and abandoning module GearVR (21)
+[2016.12.07-19.19.47:188][339]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (20)
+[2016.12.07-19.19.47:188][339]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (19)
+[2016.12.07-19.19.47:188][339]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (17)
+[2016.12.07-19.19.47:198][339]LogOnline:Display: Unloading online subsystem: NULL
+[2016.12.07-19.19.47:205][339]LogModuleManager: Shutting down and abandoning module HTTP (16)
+[2016.12.07-19.19.47:205][339]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2016.12.07-19.19.47:205][339]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B901DF494-40DC-CE64-7BA9-238EB2B69021%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.13.2-3172292%2B%2B%2BUE4%2BRelease-4.13&UserID=38a1731d41facba5469d99a89218d493%7C65d5d29ad5c44175a71ce381f892f5b9%7Cd0459a56-881e-4481-975d-2cd95ea01ff0&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2016.12.07-19.19.47:209][339]LogModuleManager: Shutting down and abandoning module XMPP (15)
+[2016.12.07-19.19.47:220][339]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.12.07-19.19.47:220][339]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.12.07-19.19.47:221][339]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.12.07-19.19.47:221][339]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.12.07-19.19.47:405][339]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.12.07-19.19.47:486][339]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.12.07-19.19.47:486][339]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.12.07-19.19.47:486][339]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.12.07-19.19.47:486][339]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.12.07-19.19.47:486][339]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.12.07-19.19.47:500][339]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.12.07-19.19.47:507][339]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.12.07-19.19.47:525][339]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.12.07-19.19.47:534][339]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.12.07-19.19.47:599][339]LogExit: Exiting.
+[2016.12.07-19.19.48:024][339]Log file closed, 12/07/16 17:19:48
